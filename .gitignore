@@ -1,0 +1,15 @@
+# 忽略所有包含 "backup" 的目录
+**/backup*/
+backup*/
+
+# 忽略特定文件
+CHG
+CHGCAR
+CONTCAR
+DOSCAR
+EIGENVAL
+IBZKPT
+PCDAT
+REPORT
+WAVECAR
+XDATCAR

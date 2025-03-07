@@ -1256,4 +1256,143 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="total"> 1846.19 
+   <time name="total"> 1846.19 1846.06</time>
+   <energy>
+    <i name="e_fr_energy">   -970.61777346 </i>
+    <i name="e_wo_entrp">   -970.60738221 </i>
+    <i name="e_0_energy">   -970.61257784 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1822.72 1822.48</time>
+   <energy>
+    <i name="e_fr_energy">   -970.65927910 </i>
+    <i name="e_wo_entrp">   -970.65204869 </i>
+    <i name="e_0_energy">   -970.65566389 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1843.52 1843.30</time>
+   <energy>
+    <i name="e_fr_energy">   -970.67679233 </i>
+    <i name="e_wo_entrp">   -970.67163031 </i>
+    <i name="e_0_energy">   -970.67421132 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1856.62 1856.45</time>
+   <energy>
+    <i name="e_fr_energy">   -970.69069515 </i>
+    <i name="e_wo_entrp">   -970.68750493 </i>
+    <i name="e_0_energy">   -970.68910004 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1843.93 1843.77</time>
+   <energy>
+    <i name="e_fr_energy">   -970.69728770 </i>
+    <i name="e_wo_entrp">   -970.69559089 </i>
+    <i name="e_0_energy">   -970.69643930 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1837.53 1837.27</time>
+   <energy>
+    <i name="e_fr_energy">   -970.70324889 </i>
+    <i name="e_wo_entrp">   -970.70209477 </i>
+    <i name="e_0_energy">   -970.70267183 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1831.60 1831.38</time>
+   <energy>
+    <i name="e_fr_energy">   -970.70750746 </i>
+    <i name="e_wo_entrp">   -970.70668131 </i>
+    <i name="e_0_energy">   -970.70709439 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1820.49 1820.27</time>
+   <energy>
+    <i name="e_fr_energy">   -970.71319782 </i>
+    <i name="e_wo_entrp">   -970.71223870 </i>
+    <i name="e_0_energy">   -970.71271826 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1826.56 1826.32</time>
+   <energy>
+    <i name="e_fr_energy">   -970.71995421 </i>
+    <i name="e_wo_entrp">   -970.71883082 </i>
+    <i name="e_0_energy">   -970.71939252 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1823.56 1823.35</time>
+   <energy>
+    <i name="e_fr_energy">   -970.72657593 </i>
+    <i name="e_wo_entrp">   -970.72548107 </i>
+    <i name="e_0_energy">   -970.72602850 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1823.19 1822.99</time>
+   <energy>
+    <i name="e_fr_energy">   -970.73163298 </i>
+    <i name="e_wo_entrp">   -970.73053847 </i>
+    <i name="e_0_energy">   -970.73108572 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1817.14 1816.94</time>
+   <energy>
+    <i name="e_fr_energy">   -970.73666549 </i>
+    <i name="e_wo_entrp">   -970.73550210 </i>
+    <i name="e_0_energy">   -970.73608380 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1805.51 1805.30</time>
+   <energy>
+    <i name="e_fr_energy">   -970.74103843 </i>
+    <i name="e_wo_entrp">   -970.73997883 </i>
+    <i name="e_0_energy">   -970.74050863 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1804.68 1804.45</time>
+   <energy>
+    <i name="e_fr_energy">   -970.74365989 </i>
+    <i name="e_wo_entrp">   -970.74269980 </i>
+    <i name="e_0_energy">   -970.74317985 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1820.71 1820.47</time>
+   <energy>
+    <i name="e_fr_energy">   -970.74572688 </i>
+    <i name="e_wo_entrp">   -970.74481886 </i>
+    <i name="e_0_energy">   -970.74527287 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1817.47 1817.26</time>
+   <energy>
+    <i name="e_fr_energy">   -970.74694669 </i>
+    <i name="e_wo_entrp">   -970.74612223 </i>
+    <i name="e_0_energy">   -970.74653446 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1807.69 1807.49</time>
+   <energy>
+    <i name="e_fr_energy">   -970.74782406 </i>
+    <i name="e_wo_entrp">   -970.74705665 </i>
+    <i name="e_0_energy">   -970.74744035 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total"> 1802.26 1802.03</time>
+   <energy>
+    <i name="e_fr_energy">   -970.74850922 </i>
+    <i na
