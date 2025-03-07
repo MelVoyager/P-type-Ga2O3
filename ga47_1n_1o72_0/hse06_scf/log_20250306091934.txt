@@ -1,0 +1,39 @@
+ running    4 mpi-ranks, with    2 threads/rank, on    1 nodes
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ OpenACC runtime initialized ...    4 GPUs detected
+ vasp.6.4.2 20Jul23 (build Mar  2 2025 11:04:54) complex                         
+ POSCAR found :  0 types and       0 ions
+ scaLAPACK will be used selectively (only on CPU)
+ -----------------------------------------------------------------------------
+|                                                                             |
+|               ----> ADVICE to this user running VASP <----                  |
+|                                                                             |
+|     You have a (more or less) 'small supercell' and for smaller cells       |
+|     it is recommended to use the reciprocal-space projection scheme!        |
+|     The real-space optimization is not efficient for small cells and it     |
+|     is also less accurate ...                                               |
+|     Therefore, set LREAL=.FALSE. in the INCAR file.                         |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     The real-space projection scheme for the treatment of the non-local     |
+|     pseudopotentials has been switched on but on file POTCAR I have not     |
+|     found any entries, signalling me that you have never performed a        |
+|     real-space optimization of all non-local projectors! BE WARNED that     |
+|     a calculation using the real-space projection scheme together with      |
+|     non-local projectors which were not real-space optimized (according     |
+|     to the plane-wave cutoff used in this calculation) might give more      |
+|     or less inaccurate results. I hope you know what you are doing.         |
+|                                                                             |
+ -----------------------------------------------------------------------------
+

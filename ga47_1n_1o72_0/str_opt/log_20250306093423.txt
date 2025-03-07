@@ -1,0 +1,4 @@
+ running    4 mpi-ranks, with   64 threads/rank, on    1 nodes
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ OpenACC runtime initialized ...    4 GPUs detected

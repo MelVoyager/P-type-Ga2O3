@@ -1,0 +1,19 @@
+general:
+  num: 4
+  name: ga47_1o72_0
+  description: 这是不带电荷的Ga2O3，原超胞为Ga48O72，它有一个V_{Ga(I)}缺陷，是第33个Ga，这里计算了其不带电的总能量
+  
+tasks:
+  - str_opt:
+      run: True
+      INCAR: INCAR_str_opt
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: POSCAR
+
+  - hse06_scf:
+      run: True
+      INCAR: INCAR_hse06_scf
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt/CONTCAR

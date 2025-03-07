@@ -1,0 +1,19 @@
+general:
+  num: 4
+  name: ga47_1n_1o72_0
+  description: 原超胞为Ga48O72，它有一个N_{O(I)}缺陷，是第43个O，这里计算了其不带电的总能量
+  
+tasks:
+  - str_opt:
+      run: True
+      INCAR: INCAR_str_opt
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: POSCAR
+
+  - hse06_scf:
+      run: True
+      INCAR: INCAR_hse06_scf
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt/CONTCAR
