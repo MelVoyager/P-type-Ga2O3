@@ -1,10 +1,14 @@
 import yaml
 import os
 import shutil
+import subprocess
 from datetime import datetime
 
-# projects = ['ga47_1o72_0']
-projects = ['ga47_1n_1o72_0']
+# projects = ['ga47_1o72_-1']
+projects = ['ga48o71n_1']
+
+os.environ["OMPI_MCA_btl_openib_warn_no_device_params_found"] = "0"
+os.environ["OMPI_MCA_btl"] = "^openib"
 
 for project in projects:
     with open(f'{project}/config.yaml', 'r') as f:
@@ -22,6 +26,34 @@ for project in projects:
                 shutil.copy2(f'{project}/{task_cfg[filename]}', f'{task_dir}/{filename}')
 
             device_num = cfg['general']['num']
-
             timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
-            os.system(f'cd {task_dir} && mpirun -np {device_num} vasp_std > log_{timestamp}.txt')
+
+            # 检查 task_dir 中是否已有 log_***.txt 文件
+            existing_logs = [f for f in os.listdir(task_dir) if f.startswith("log_") and f.endswith(".txt")]
+            if existing_logs:
+                # 如果已存在 log_***.txt，则使用最新的日志文件
+                existing_logs.sort()  # 确保按时间顺序排序
+                log_file = existing_logs[-1]  # 选择最新的日志文件
+            else:
+                # 如果没有 log_***.txt，则创建新的
+                log_file = f"log_{timestamp}.txt"
+
+            # 生成 `run_vasp.sh` 脚本
+            run_script = f"""
+#!/bin/bash
+module purge
+module load nvhpc/23.3_cuda11.0-11.8-12.0/nvhpc/23.3
+export PATH=/home/bingxing2/ailab/xiazeyu_p/soft/vasp.6.4.2-nvhpc/bin:$PATH
+mpirun -n {device_num} vasp_std >> {log_file} 2>&1
+"""
+            script_path = os.path.join(task_dir, "run_vasp.sh")
+
+            with open(script_path, "w") as script_file:
+                # print(script_path)
+                script_file.write(run_script)
+
+            # 给予执行权限
+            os.chmod(script_path, 0o755)
+            # print(f"task_dir:{task_dir}")
+            # 运行脚本
+            subprocess.run(["bash", "run_vasp.sh"], cwd=task_dir)

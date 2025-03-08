@@ -5,7 +5,6 @@ backup*/
 # 忽略特定文件
 CHG
 CHGCAR
-CONTCAR
 DOSCAR
 EIGENVAL
 IBZKPT
@@ -13,3 +12,4 @@ PCDAT
 REPORT
 WAVECAR
 XDATCAR
+run_vasp.sh
