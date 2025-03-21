@@ -97,3 +97,42 @@ CGA:  30    -0.982506268488E+03   -0.49397E-03   -0.49446E-03  5064   0.917E-03-
  gam= 0.551 trial= 0.461  step= 0.541 mean= 0.461
  gam= 0.497 g(H,U,f)=  0.431E-03 0.249E-04 0.162E-14 ort(H,U,f) =-0.417E-04 0.417E-04-0.216E-14
 CGA:  31    -0.982506515661E+03   -0.24717E-03   -0.24718E-03  5064   0.456E-03 0.129E-07
+ gam= 0.497 trial= 0.465  step= 0.514 mean= 0.465
+ gam= 0.494 g(H,U,f)=  0.208E-03 0.170E-04 0.584E-14 ort(H,U,f) = 0.311E-05 0.302E-05 0.276E-14
+CGA:  32    -0.982506632882E+03   -0.11722E-03   -0.11707E-03  5064   0.225E-03 0.613E-05
+ gam= 0.494 trial= 0.467  step= 0.522 mean= 0.467
+ gam= 0.466 g(H,U,f)=  0.931E-04 0.119E-04 0.902E-16 ort(H,U,f) = 0.571E-05 0.228E-05 0.190E-15
+CGA:  33    -0.982506692730E+03   -0.59847E-04   -0.59629E-04  5064   0.105E-03 0.799E-05
+ gam= 0.466 trial= 0.470  step= 0.529 mean= 0.470
+ gam= 0.457 g(H,U,f)=  0.422E-04 0.584E-05 0.513E-14 ort(H,U,f) = 0.197E-05 0.397E-05 0.825E-14
+CGA:  34    -0.982506721696E+03   -0.28967E-04   -0.28791E-04  5064   0.480E-04 0.594E-05
+ gam= 0.457 trial= 0.473  step= 0.568 mean= 0.473
+ gam= 0.515 g(H,U,f)=  0.221E-04 0.263E-05 0.478E-17 ort(H,U,f) = 0.331E-06 0.251E-05 0.288E-16
+CGA:  35    -0.982506736240E+03   -0.14544E-04   -0.14410E-04  5064   0.248E-04 0.284E-05
+ gam= 0.515 trial= 0.478  step= 0.579 mean= 0.478
+ gam= 0.541 g(H,U,f)=  0.122E-04 0.119E-05 0.890E-18 ort(H,U,f) =-0.824E-06 0.139E-05 0.123E-17
+CGA:  36    -0.982506743856E+03   -0.76155E-05   -0.75870E-05  5064   0.134E-04 0.565E-06
+ gam= 0.541 trial= 0.483  step= 0.557 mean= 0.483
+ final diagonalization
+   1 F= -.98250674E+03 E0= -.98250674E+03  d E =-.258505E-22
+ writing wavefunctions
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP

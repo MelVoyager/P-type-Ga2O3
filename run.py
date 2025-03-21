@@ -4,8 +4,9 @@ import shutil
 import subprocess
 from datetime import datetime
 
-# projects = ['ga47_1o72_-1']
-projects = ['ga48o71n_1']
+# projects = ['ga47_1o72', 'ga47_1o71p_1', 'ga47_1o71p_2','ga47_1o71p_3']
+projects = ['ga48o71p_3']
+# projects = ['ga47_1o72']
 
 os.environ["OMPI_MCA_btl_openib_warn_no_device_params_found"] = "0"
 os.environ["OMPI_MCA_btl"] = "^openib"
@@ -13,9 +14,12 @@ os.environ["OMPI_MCA_btl"] = "^openib"
 for project in projects:
     with open(f'{project}/config.yaml', 'r') as f:
         cfg = yaml.safe_load(f)
-
+        print(f'path:{project}')
+        
     for task in cfg['tasks']:
         task_name, task_cfg = task.popitem()
+        
+        # print(f'task_name:{task_name}')
         if task_cfg['run']:
             print('task_name:', task_name)
 

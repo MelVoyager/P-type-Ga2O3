@@ -13,3 +13,4 @@ REPORT
 WAVECAR
 XDATCAR
 run_vasp.sh
+slurm-*.out

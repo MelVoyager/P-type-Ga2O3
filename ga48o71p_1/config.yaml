@@ -1,0 +1,47 @@
+general:
+  num: 4
+  name: ga48o71p_1
+  description: 原超胞：Ga48O72；它有一个P_{O(I)}缺陷，是第43个O；这里计算了其不带电的总能量（0）和带一个负电的总能量（-1）
+  
+tasks:
+  - str_opt_0:
+      run: False
+      INCAR: INCAR_str_opt_0
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: POSCAR
+
+  - hse06_scf_0:
+      run: False
+      INCAR: INCAR_hse06_scf_0
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_0/CONTCAR
+
+  - str_opt_-1:
+      run: False
+      INCAR: INCAR_str_opt_-1
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: POSCAR
+
+  - hse06_scf_-1:
+      run: False
+      INCAR: INCAR_hse06_scf_-1
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_-1/CONTCAR
+
+  - hse06_scf_0_0.32:
+      run: True
+      INCAR: INCAR_hse06_scf_0_0.32
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_0/CONTCAR
+
+  - hse06_scf_-1_0.32:
+      run: True
+      INCAR: INCAR_hse06_scf_-1_0.32
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_-1/CONTCAR
