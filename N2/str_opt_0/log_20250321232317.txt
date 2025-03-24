@@ -1,0 +1,147 @@
+ running    4 mpi-ranks, on    1 nodes
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ OpenACC runtime initialized ...    4 GPUs detected
+ vasp.6.4.2 20Jul23 (build Nov 12 2023 22:16:35) complex                         
+ POSCAR found type information on POSCAR O 
+ POSCAR found :  1 types and       2 ions
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     You use a magnetic or noncollinear calculation, but did not specify     |
+|     the initial magnetic moment with the MAGMOM tag. Note that a            |
+|     default of 1 will be used for all atoms. This ferromagnetic setup       |
+|     may break the symmetry of the crystal, in particular it may rule        |
+|     out finding an antiferromagnetic solution. Thence, we recommend         |
+|     setting the initial magnetic moment manually or verifying carefully     |
+|     that this magnetic setup is desired.                                    |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ scaLAPACK will be used selectively (only on CPU)
+ WARNING: type information on POSCAR and POTCAR are incompatible
+ POTCAR overwrites the type information in POSCAR
+ typ   1 type information:  O  N 
+ -----------------------------------------------------------------------------
+|                                                                             |
+|               ----> ADVICE to this user running VASP <----                  |
+|                                                                             |
+|     You have a (more or less) 'small supercell' and for smaller cells       |
+|     it is recommended to use the reciprocal-space projection scheme!        |
+|     The real-space optimization is not efficient for small cells and it     |
+|     is also less accurate ...                                               |
+|     Therefore, set LREAL=.FALSE. in the INCAR file.                         |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.710996614587E+02    0.71100E+02   -0.22995E+03   328   0.518E+02
+DAV:   2    -0.717820880966E+01   -0.78278E+02   -0.76237E+02   552   0.135E+02
+DAV:   3    -0.166138428456E+02   -0.94356E+01   -0.94305E+01   512   0.611E+01
+DAV:   4    -0.167445017470E+02   -0.13066E+00   -0.13061E+00   480   0.688E+00
+DAV:   5    -0.167447994102E+02   -0.29766E-03   -0.29765E-03   402   0.314E-01    0.110E+01
+RMM:   6    -0.122688721631E+02    0.44759E+01   -0.35956E+00   320   0.123E+01    0.505E+00
+RMM:   7    -0.155687325424E+02   -0.32999E+01   -0.20842E+00   320   0.926E+00    0.264E+00
+RMM:   8    -0.164295149025E+02   -0.86078E+00   -0.12579E+00   320   0.641E+00    0.108E+00
+RMM:   9    -0.165888401153E+02   -0.15933E+00   -0.19197E-01   321   0.294E+00    0.675E-01
+RMM:  10    -0.165585581390E+02    0.30282E-01   -0.48278E-02   320   0.161E+00    0.258E-01
+RMM:  11    -0.166046052100E+02   -0.46047E-01   -0.14645E-02   320   0.816E-01    0.853E-02
+RMM:  12    -0.166069896544E+02   -0.23844E-02   -0.35090E-03   321   0.337E-01    0.454E-02
+RMM:  13    -0.166085380945E+02   -0.15484E-02   -0.93380E-04   321   0.176E-01    0.398E-02
+RMM:  14    -0.166092715081E+02   -0.73341E-03   -0.32029E-04   320   0.113E-01    0.153E-02
+RMM:  15    -0.166094566999E+02   -0.18519E-03   -0.71521E-05   302   0.553E-02    0.990E-03
+RMM:  16    -0.166098366983E+02   -0.38000E-03   -0.12026E-04   304   0.586E-02    0.104E-02
+RMM:  17    -0.166099295770E+02   -0.92879E-04   -0.27113E-05   256   0.296E-02    0.388E-03
+RMM:  18    -0.166099672213E+02   -0.37644E-04   -0.10135E-05   254   0.183E-02    0.261E-03
+RMM:  19    -0.166099943484E+02   -0.27127E-04   -0.54714E-06   230   0.117E-02    0.168E-03
+RMM:  20    -0.166099999213E+02   -0.55729E-05   -0.13743E-06   199   0.654E-03
+   1 F= -.16610000E+02 E0= -.16610000E+02  d E =-.166100E+02  mag=    -0.0000
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.546E+00 g(S)=  0.000E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.546E+00
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.148081581251E+02    0.18018E+01   -0.13449E+02   328   0.102E+02    0.451E+00
+RMM:   2    -0.145892173050E+02    0.21894E+00   -0.12179E+00   320   0.100E+01    0.230E+00
+RMM:   3    -0.145562528609E+02    0.32964E-01   -0.59573E-01   320   0.595E+00    0.739E-01
+RMM:   4    -0.145584262170E+02   -0.21734E-02   -0.37810E-02   320   0.197E+00    0.235E-01
+RMM:   5    -0.145593485402E+02   -0.92232E-03   -0.58950E-03   323   0.705E-01    0.427E-02
+RMM:   6    -0.145596454167E+02   -0.29688E-03   -0.15276E-03   339   0.299E-01    0.330E-02
+RMM:   7    -0.145598632785E+02   -0.21786E-03   -0.21888E-04   320   0.129E-01    0.126E-02
+RMM:   8    -0.145599670415E+02   -0.10376E-03   -0.57654E-05   320   0.622E-02    0.577E-03
+RMM:   9    -0.145600073773E+02   -0.40336E-04   -0.14849E-05   249   0.281E-02    0.364E-03
+RMM:  10    -0.145601117426E+02   -0.10437E-03   -0.14697E-05   254   0.216E-02    0.251E-03
+RMM:  11    -0.145601185814E+02   -0.68387E-05   -0.27041E-06   238   0.996E-03
+   2 F= -.14560119E+02 E0= -.14560119E+02  d E =0.204988E+01  mag=    -0.0000
+ trial-energy change:    2.049881  1 .order    1.399037   -0.545788    3.343862
+ step:   0.0727(harm=  0.1403)  dis= 0.00834  next Energy=   -16.629580 (dE=-0.196E-01)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.167379103717E+02   -0.21778E+01   -0.11390E+02   332   0.924E+01    0.500E+00
+RMM:   2    -0.166924107290E+02    0.45500E-01   -0.11952E+00   320   0.105E+01    0.221E+00
+RMM:   3    -0.166217493928E+02    0.70661E-01   -0.28768E-01   320   0.485E+00    0.517E-01
+RMM:   4    -0.166252618287E+02   -0.35124E-02   -0.54971E-02   320   0.192E+00    0.285E-01
+RMM:   5    -0.166260651661E+02   -0.80334E-03   -0.54571E-03   320   0.679E-01    0.104E-01
+RMM:   6    -0.166261035343E+02   -0.38368E-04   -0.16628E-03   320   0.277E-01    0.510E-02
+RMM:   7    -0.166262688682E+02   -0.16533E-03   -0.50365E-04   322   0.159E-01    0.408E-02
+RMM:   8    -0.166267096411E+02   -0.44077E-03   -0.10593E-04   319   0.731E-02    0.169E-02
+RMM:   9    -0.166268222079E+02   -0.11257E-03   -0.54186E-05   304   0.469E-02    0.134E-02
+RMM:  10    -0.166269871484E+02   -0.16494E-03   -0.22650E-05   256   0.280E-02    0.356E-03
+RMM:  11    -0.166270052719E+02   -0.18123E-04   -0.72760E-06   246   0.142E-02    0.416E-03
+RMM:  12    -0.166270190575E+02   -0.13786E-04   -0.20910E-06   223   0.788E-03    0.194E-03
+RMM:  13    -0.166270273247E+02   -0.82672E-05   -0.24440E-06   240   0.927E-03
+   3 F= -.16627027E+02 E0= -.16627027E+02  d E =-.170274E-01  mag=     0.0000
+ curvature:  -0.07 expect dE=-0.536E-03 dE for cont linesearch -0.536E-03
+ ZBRENT: interpolating
+ opt :   0.0650  next Energy=   -16.627277 (dE=-0.173E-01)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.166273172668E+02   -0.29821E-03   -0.85893E-03   392   0.836E-01    0.415E-02
+RMM:   2    -0.166272967176E+02    0.20549E-04   -0.74893E-05   320   0.797E-02    0.211E-02
+RMM:   3    -0.166272922013E+02    0.45163E-05   -0.54083E-05   320   0.554E-02
+   4 F= -.16627292E+02 E0= -.16627292E+02  d E =-.172923E-01  mag=    -0.0000
+ curvature:  -0.03 expect dE=-0.103E-05 dE for cont linesearch -0.103E-05
+ ZBRENT: interpolating
+ opt :   0.0644  next Energy=   -16.627293 (dE=-0.173E-01)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.166272931512E+02    0.35664E-05   -0.40221E-05   428   0.564E-02    0.462E-03
+RMM:   2    -0.166272932543E+02   -0.10318E-06   -0.50707E-07   172   0.675E-03
+   5 F= -.16627293E+02 E0= -.16627293E+02  d E =-.172933E-01  mag=    -0.0000
+ curvature:  -0.03 expect dE=-0.157E-07 dE for cont linesearch -0.157E-07
+ trial: gam=-0.00091 g(F)=  0.453E-06 g(S)=  0.000E+00 ort = 0.497E-03 (trialstep = 0.813E+00)
+ search vector abs. value=  0.100E-09
+ reached required accuracy - stopping structural energy minimisation
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP

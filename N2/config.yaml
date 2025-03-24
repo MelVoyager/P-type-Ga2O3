@@ -1,0 +1,27 @@
+general:
+  num: 4
+  name: O2
+  description: 这里计算了单个氧气分子的能量
+  
+tasks:
+  - str_opt_0:
+      run: True
+      INCAR: INCAR_str_opt_0
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: POSCAR
+
+  - hse06_scf_0:
+      run: True
+      INCAR: INCAR_hse06_scf_0
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_0/CONTCAR
+
+  - hse06_scf_0_0.32:
+      run: True
+      INCAR: INCAR_hse06_scf_0_0.32
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_0/CONTCAR
+
