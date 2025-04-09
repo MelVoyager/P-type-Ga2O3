@@ -11,26 +11,12 @@ tasks:
       POTCAR: POTCAR
       POSCAR: POSCAR
 
-  - hse06_scf_0_0.35:
-      run: False
-      INCAR: INCAR_hse06_scf_0
-      KPOINTS: KPOINTS
-      POTCAR: POTCAR
-      POSCAR: str_opt_0/CONTCAR
-
   - str_opt_-1:
-      run: True
+      run: False
       INCAR: INCAR_str_opt_-1
       KPOINTS: KPOINTS
       POTCAR: POTCAR
       POSCAR: POSCAR
-
-  - hse06_scf_-1_0.35:
-      run: False
-      INCAR: INCAR_hse06_scf_-1
-      KPOINTS: KPOINTS
-      POTCAR: POTCAR
-      POSCAR: str_opt_-1/CONTCAR
 
   - hse06_scf_0_0.32:
       run: True
