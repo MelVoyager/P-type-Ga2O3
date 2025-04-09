@@ -19,7 +19,7 @@ tasks:
       POSCAR: str_opt_0/CONTCAR
 
   - str_opt_-1:
-      run: False
+      run: True
       INCAR: INCAR_str_opt_-1
       KPOINTS: KPOINTS
       POTCAR: POTCAR

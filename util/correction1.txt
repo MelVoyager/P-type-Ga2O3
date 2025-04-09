@@ -1,0 +1,78 @@
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71n_1/hse06_scf_-1_0.32
+==================================================
+name: N_O_Cs_Ga1.85_-1
+defect: N_O substitution defect at site [0.004,0.167,0.373] in structure
+
+Charge = -1 with correction: +0.17164 eV
+
+Supercell site: [0.999 0.167 0.37 ]
+
+Corrected energy: -951.65633
+
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71n_2/hse06_scf_-1_0.32
+==================================================
+name: N_O_Cs_Ga1.87_-1
+defect: N_O substitution defect at site [0.173,0.000,0.280] in structure
+
+Charge = -1 with correction: +0.18236 eV
+
+Supercell site: [0.174 0.    0.277]
+
+Corrected energy: -952.15822
+
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71n_3/hse06_scf_-1_0.32
+==================================================
+name: N_O_Cs_Ga1.84_-1
+defect: N_O substitution defect at site [0.168,0.000,0.554] in structure
+
+Charge = -1 with correction: +0.17674 eV
+
+Supercell site: [0.183 0.    0.556]
+
+Corrected energy: -951.56651
+
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71p_1/hse06_scf_-1_0.32
+==================================================
+name: P_O_Cs_Ga1.85_-1
+defect: P_O substitution defect at site [0.004,0.167,0.373] in structure
+
+Charge = -1 with correction: +0.04413 eV
+
+Supercell site: [0.98  0.167 0.317]
+
+Corrected energy: -944.76063
+
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71p_2/hse06_scf_-1_0.32
+==================================================
+name: P_O_Cs_Ga1.87_-1
+defect: P_O substitution defect at site [0.173,0.000,0.280] in structure
+
+Charge = -1 with correction: +0.09652 eV
+
+Supercell site: [0.167 0.    0.286]
+
+Corrected energy: -945.12981
+
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71p_3/hse06_scf_-1_0.32
+==================================================
+name: P_O_Cs_Ga1.84_-1
+defect: P_O substitution defect at site [0.168,0.000,0.554] in structure
+
+Charge = -1 with correction: +0.06716 eV
+
+Supercell site: [0.212 0.    0.549]
+
+Corrected energy: -945.95680
+

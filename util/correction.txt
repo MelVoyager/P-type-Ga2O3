@@ -1,0 +1,5 @@
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga47_1o71p_1/hse06_scf_-1_0.32
+==================================================
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga47_1o71p_1/hse06_scf_-1_0.32: No defect calculations in `output_path` '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga47_1o71p_1/hse06_scf_-1_0.32/..' were successfully parsed, using `bulk_path`: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o72/hse06_scf_0_0.32. Please check the correct defect/bulk paths and subfolder are being set, and that the folder structure is as expected (see `DefectsParser` docstring).

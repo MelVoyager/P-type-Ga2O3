@@ -1,0 +1,21 @@
+general:
+  num: 4
+  name: ga48o72
+  description: 原超胞：Ga48O72；这里计算了其不带电的总能量（0）和带一个负电的总能量（-1）
+  
+tasks:
+  - str_opt_0:
+      run: True
+      INCAR: INCAR_str_opt_0
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: POSCAR
+
+  - hse06_scf_0_0.32:
+      run: True
+      INCAR: INCAR_hse06_scf_0_0.32
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_0/CONTCAR
+
+
