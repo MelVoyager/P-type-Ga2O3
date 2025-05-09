@@ -5,7 +5,7 @@ general:
   
 tasks:
   - str_opt_0:
-      run: False
+      run: True
       INCAR: INCAR_str_opt_0
       KPOINTS: KPOINTS
       POTCAR: POTCAR
@@ -17,17 +17,37 @@ tasks:
       KPOINTS: KPOINTS
       POTCAR: POTCAR_pv
       POSCAR: Cu_{Ga(I)}-N_{O(II)}.vasp
-    
-  - hse06_scf_0_0.32:
+
+  - pbe_0:
       run: False
-      INCAR: INCAR_hse06_scf_0_0.32
+      INCAR: INCAR_pbe_0
       KPOINTS: KPOINTS
       POTCAR: POTCAR
       POSCAR: str_opt_0/CONTCAR
 
-  - hse06_scf_-1_0.32:
-      run: True
-      INCAR: INCAR_hse06_scf_-1_0.32
+  - pbe_-1:
+      run: False
+      INCAR: INCAR_pbe_-1
       KPOINTS: KPOINTS
       POTCAR: POTCAR
       POSCAR: str_opt_-1/CONTCAR
+    
+  - hse06_0:
+      run: True
+      INCAR: INCAR_hse06_0
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_0/CONTCAR
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_-1:
+      run: True
+      INCAR: INCAR_hse06_-1
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: str_opt_-1/CONTCAR
+      WAVECAR: pbe_-1/WAVECAR
+      CHGCAR: pbe_-1/CHGCAR
+      CHG: pbe_-1/CHG

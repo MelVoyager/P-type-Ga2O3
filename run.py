@@ -6,7 +6,7 @@ from datetime import datetime
 
 # projects = ['Cu_{Ga(I)}-N_{O(I)}', 'Cu_{Ga(I)}-N_{O(II)}', 'Cu_{Ga(I)}-N_{O(III)}']
 # projects = ['Cu_{Ga(II)}-N_{O(I)}', 'Cu_{Ga(II)}-N_{O(II)}', 'Cu_{Ga(II)}-N_{O(III)}']
-projects = ['ga48o72']
+projects = ['Cu_{Ga(I)}']
 
 os.environ["OMPI_MCA_btl_openib_warn_no_device_params_found"] = "0"
 os.environ["OMPI_MCA_btl"] = "^openib"
@@ -26,8 +26,20 @@ for project in projects:
             task_dir = f'{project}/{task_name}'
             os.makedirs(task_dir, exist_ok=True)  # 创建 task_name 目录（如果不存在）
 
-            for filename in ['INCAR', 'KPOINTS', 'POTCAR', 'POSCAR']:
-                shutil.copy2(f'{project}/{task_cfg[filename]}', f'{task_dir}/{filename}')
+            for filename in ['INCAR', 'KPOINTS', 'POTCAR', 'POSCAR', 'CHGCAR', 'WAVECAR', 'CHG']:
+                    # 构建源文件和目标文件路径
+                    if filename not in task_cfg:
+                        # print(f"Warning: {filename} 未配置，已跳过。")
+                        continue
+
+                    src = os.path.join(project, task_cfg[filename])
+                    dst = os.path.join(task_dir, filename)
+                    
+                    # 检查源文件是否存在
+                    if os.path.isfile(src):  # 确保是文件，而非目录
+                        shutil.copy2(src, dst)
+                    else:
+                        print(f"Warning: {src} 不存在，已跳过。") 
 
             device_num = cfg['general']['num']
             timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
