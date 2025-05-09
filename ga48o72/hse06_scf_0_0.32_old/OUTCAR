@@ -1,5 +1,5 @@
  vasp.6.4.2 20Jul23 (build Nov 12 2023 22:16:35) complex                         
- executed on              LinuxNV date 2025.05.09  07:29:52
+ executed on              LinuxNV date 2025.03.14  17:47:31
  running    4 mpi-ranks, on    1 nodes
  distrk:  each k-point on    1 cores,    4 groups
  distr:  one band on NCORE=   1 cores,    1 groups
@@ -38,7 +38,6 @@
    AEXX = 0.32
    LMAXFOCK = 4
    PRECFOCK = Fast
-   ICORELEVEL = 1
 
  POTCAR:    PAW_PBE Ga_d 06Jul2010                
  POTCAR:    PAW_PBE O 08Apr2002                   
@@ -646,7 +645,6 @@ Automatic generation of k-mesh.
    IDIPOL =      0    1-x, 2-y, 3-z, 4-all directions 
    EPSILON=  1.0000000 bulk dielectric constant
 
- Core level calculations are selected ICORELEVEL =  1
  Exchange correlation treatment:
    GGA     =    --    GGA type
    LEXCH   =     8    internal setting for exchange type
@@ -1069,7 +1067,7 @@ Automatic generation of k-mesh.
    HF        :        129. kBytes
    wavefun   :    7050060. kBytes
  
-     INWAV:  cpu time      0.0000: real time      0.0001
+     INWAV:  cpu time      0.0001: real time      0.0001
  Broyden mixing: mesh for mixing (old mesh)
    NGX = 43   NGY = 31   NGZ = 41
   (NGX  =128   NGY  = 96   NGZ  =120)
@@ -1093,7 +1091,7 @@ Automatic generation of k-mesh.
  Maximum number of real-space cells 3x 3x 3
  Maximum number of reciprocal cells 3x 2x 3
 
-    FEWALD:  cpu time      0.0728: real time      0.0728
+    FEWALD:  cpu time      0.0726: real time      0.0726
 
 
 --------------------------------------- Ionic step        1  -------------------------------------------
@@ -1104,12 +1102,12 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   1)  ---------------------------------------
 
 
-    POTLOK:  cpu time      0.0342: real time      0.0342
-    SETDIJ:  cpu time      0.1202: real time      0.1202
-    TRIAL :  cpu time      2.9153: real time      2.9285
+    POTLOK:  cpu time      0.0333: real time      0.0333
+    SETDIJ:  cpu time      0.1355: real time      0.1355
+    TRIAL :  cpu time      2.9377: real time      2.9437
     CORREC:  cpu time      0.0015: real time      0.0015
     --------------------------------------------
-      LOOP:  cpu time      3.9657: real time      3.9786
+      LOOP:  cpu time      4.0326: real time      4.0383
 
  eigenvalue-minimisations  : 10616
  total energy-change (2. order) :-0.1826235E+05  (-0.5422878E+05)
@@ -1125,12 +1123,12 @@ Automatic generation of k-mesh.
   -V(xc)+E(xc)   XCENC  =      2806.72067320
   PAW double counting   =     56157.47241140   -85370.38820063
   entropy T*S    EENTRO =        -0.00744551
-  eigenvalues    EBANDS =    -40289.05390054
+  eigenvalues    EBANDS =    -40289.05390053
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =    -18262.34911924 eV
 
-  energy without entropy =   -18262.34167373  energy(sigma->0) =   -18262.34539649
+  energy without entropy =   -18262.34167373  energy(sigma->0) =   -18262.34539648
   exchange ACFDT corr.  =         0.00000000  see jH, gK, PRB 81, 115126
 
 
@@ -1142,10 +1140,10 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   2)  ---------------------------------------
 
 
-    TRIAL :  cpu time      3.1379: real time      3.1375
-    CORREC:  cpu time      0.0016: real time      0.0016
+    TRIAL :  cpu time      3.2139: real time      3.2134
+    CORREC:  cpu time      0.0015: real time      0.0015
     --------------------------------------------
-      LOOP:  cpu time      3.1399: real time      3.1403
+      LOOP:  cpu time      3.2155: real time      3.2156
 
  eigenvalue-minimisations  : 13600
  total energy-change (2. order) :-0.4409340E+05  (-0.4280659E+05)
@@ -1178,10 +1176,10 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   3)  ---------------------------------------
 
 
-    TRIAL :  cpu time      3.3072: real time      3.3067
-    CORREC:  cpu time      0.0016: real time      0.0016
+    TRIAL :  cpu time      3.3649: real time      3.3644
+    CORREC:  cpu time      0.0017: real time      0.0017
     --------------------------------------------
-      LOOP:  cpu time      3.3089: real time      3.3089
+      LOOP:  cpu time      3.3669: real time      3.3668
 
  eigenvalue-minimisations  : 14456
  total energy-change (2. order) :-0.4452847E+04  (-0.3958602E+04)
@@ -1200,7 +1198,7 @@ Automatic generation of k-mesh.
   eigenvalues    EBANDS =    -88835.27001777
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =    -66808.59388103 eV
+  free energy    TOTEN  =    -66808.59388104 eV
 
   energy without entropy =   -66808.55779096  energy(sigma->0) =   -66808.57583600
   exchange ACFDT corr.  =         0.00000000  see jH, gK, PRB 81, 115126
@@ -1214,10 +1212,10 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   4)  ---------------------------------------
 
 
-    TRIAL :  cpu time      3.6455: real time      3.6451
-    CORREC:  cpu time      0.0018: real time      0.0018
+    TRIAL :  cpu time      3.7076: real time      3.7070
+    CORREC:  cpu time      0.0017: real time      0.0017
     --------------------------------------------
-      LOOP:  cpu time      3.6474: real time      3.6474
+      LOOP:  cpu time      3.7095: real time      3.7093
 
  eigenvalue-minimisations  : 16824
  total energy-change (2. order) :-0.4932691E+03  (-0.4260941E+03)
@@ -1250,13 +1248,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   5)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.3946: real time      1.3944
-    SETDIJ:  cpu time      0.4241: real time      0.4240
-    TRIAL :  cpu time    235.8643: real time    235.8745
-    CORREC:  cpu time      0.0016: real time      0.0016
-    CHARGE:  cpu time      0.2071: real time      0.2071
+    POTLOK:  cpu time      1.3634: real time      1.3632
+    SETDIJ:  cpu time      0.4289: real time      0.4288
+    TRIAL :  cpu time    235.9678: real time    235.9308
+    CORREC:  cpu time      0.0015: real time      0.0015
+    CHARGE:  cpu time      0.2071: real time      0.2070
     --------------------------------------------
-      LOOP:  cpu time    237.8919: real time    237.9022
+      LOOP:  cpu time    237.9688: real time    237.9318
 
  eigenvalue-minimisations  : 18856
  total energy-change (2. order) : 0.3014883E+05  (-0.7040273E+02)
@@ -1289,13 +1287,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   6)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4316: real time      1.4314
-    SETDIJ:  cpu time      0.4236: real time      0.4235
-    TRIAL :  cpu time    232.9112: real time    233.2711
-    CORREC:  cpu time    235.3202: real time    235.2936
-    CHARGE:  cpu time      0.2102: real time      0.2102
+    POTLOK:  cpu time      1.4295: real time      1.4293
+    SETDIJ:  cpu time      0.4218: real time      0.4217
+    TRIAL :  cpu time    233.7707: real time    233.7308
+    CORREC:  cpu time    235.6419: real time    235.6031
+    CHARGE:  cpu time      0.2257: real time      0.2256
     --------------------------------------------
-      LOOP:  cpu time    470.2971: real time    470.6406
+      LOOP:  cpu time    471.4900: real time    471.4132
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) : 0.5124083E+05  (-0.1246490E+05)
@@ -1309,14 +1307,14 @@ Automatic generation of k-mesh.
   -Hartree energ DENC   =    -60459.69079495
   -exchange      EXHF   =      4732.61417164
   -V(xc)+E(xc)   XCENC  =      3712.63927968
-  PAW double counting   =    140636.12262299  -164706.07508916
+  PAW double counting   =    140636.12262300  -164706.07508916
   entropy T*S    EENTRO =        -0.02641575
   eigenvalues    EBANDS =     39624.70056779
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =     14087.80664439 eV
 
-  energy without entropy =    14087.83306014  energy(sigma->0) =    14087.81985226
+  energy without entropy =    14087.83306013  energy(sigma->0) =    14087.81985226
   exchange ACFDT corr.  =        -0.10833409  see jH, gK, PRB 81, 115126
 
 
@@ -1328,13 +1326,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   7)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4673: real time      1.4671
-    SETDIJ:  cpu time      0.4714: real time      0.4714
-    TRIAL :  cpu time    232.4531: real time    232.4258
-    CORREC:  cpu time    235.0300: real time    235.0034
-    CHARGE:  cpu time      0.2080: real time      0.2080
+    POTLOK:  cpu time      1.4657: real time      1.4655
+    SETDIJ:  cpu time      0.4641: real time      0.4640
+    TRIAL :  cpu time    232.8179: real time    232.7783
+    CORREC:  cpu time    235.4719: real time    235.4319
+    CHARGE:  cpu time      0.2281: real time      0.2280
     --------------------------------------------
-      LOOP:  cpu time    469.6307: real time    469.5768
+      LOOP:  cpu time    470.4479: real time    470.3682
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.1095541E+05  (-0.1685951E+04)
@@ -1345,17 +1343,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -42719.69923488
-  -exchange      EXHF   =      4140.25863089
+  -Hartree energ DENC   =    -42719.69923500
+  -exchange      EXHF   =      4140.25863090
   -V(xc)+E(xc)   XCENC  =      3158.49812601
-  PAW double counting   =    127755.57112324  -147633.69758039
+  PAW double counting   =    127755.57112315  -147633.69758033
   entropy T*S    EENTRO =        -0.05774686
-  eigenvalues    EBANDS =      7883.96618478
+  eigenvalues    EBANDS =      7883.96618493
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      3132.39856328 eV
+  free energy    TOTEN  =      3132.39856330 eV
 
-  energy without entropy =     3132.45631014  energy(sigma->0) =     3132.42743671
+  energy without entropy =     3132.45631016  energy(sigma->0) =     3132.42743673
   exchange ACFDT corr.  =      -138.63948471  see jH, gK, PRB 81, 115126
 
 
@@ -1367,13 +1365,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   8)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4690: real time      1.4690
-    SETDIJ:  cpu time      0.4874: real time      0.4874
-    TRIAL :  cpu time    232.3614: real time    232.3290
-    CORREC:  cpu time    235.5717: real time    235.5394
-    CHARGE:  cpu time      0.2245: real time      0.2244
+    POTLOK:  cpu time      1.5006: real time      1.5004
+    SETDIJ:  cpu time      0.4533: real time      0.4533
+    TRIAL :  cpu time    232.8336: real time    232.7955
+    CORREC:  cpu time    235.9869: real time    235.9475
+    CHARGE:  cpu time      0.2244: real time      0.2244
     --------------------------------------------
-      LOOP:  cpu time    470.1160: real time    470.0514
+      LOOP:  cpu time    470.9995: real time    470.9219
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.1674505E+04  (-0.8704443E+03)
@@ -1384,18 +1382,18 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -37175.01726879
-  -exchange      EXHF   =      3929.75793969
-  -V(xc)+E(xc)   XCENC  =      2977.83420384
-  PAW double counting   =    125304.96125773  -142807.23086340
+  -Hartree energ DENC   =    -37175.01726911
+  -exchange      EXHF   =      3929.75793971
+  -V(xc)+E(xc)   XCENC  =      2977.83420385
+  PAW double counting   =    125304.96125723  -142807.23086297
   entropy T*S    EENTRO =        -0.07574668
-  eigenvalues    EBANDS =     -1319.88178471
+  eigenvalues    EBANDS =     -1319.88178429
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      1457.89346688 eV
+  free energy    TOTEN  =      1457.89346693 eV
 
-  energy without entropy =     1457.96921355  energy(sigma->0) =     1457.93134022
-  exchange ACFDT corr.  =      -115.27929504  see jH, gK, PRB 81, 115126
+  energy without entropy =     1457.96921361  energy(sigma->0) =     1457.93134027
+  exchange ACFDT corr.  =      -115.27929503  see jH, gK, PRB 81, 115126
 
 
 --------------------------------------------------------------------------------------------------------
@@ -1406,35 +1404,35 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   9)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4425: real time      1.4424
-    SETDIJ:  cpu time      0.4833: real time      0.4832
-    TRIAL :  cpu time    234.0266: real time    233.9965
-    CORREC:  cpu time    234.4165: real time    234.3898
-    CHARGE:  cpu time      0.2193: real time      0.2193
+    POTLOK:  cpu time      1.4575: real time      1.4574
+    SETDIJ:  cpu time      0.5009: real time      0.5008
+    TRIAL :  cpu time    234.6396: real time    234.6048
+    CORREC:  cpu time    234.5505: real time    234.5161
+    CHARGE:  cpu time      0.2235: real time      0.2235
     --------------------------------------------
-      LOOP:  cpu time    470.5883: real time    470.5317
+      LOOP:  cpu time    471.3731: real time    471.3040
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.1189488E+04  (-0.4563938E+03)
  number of electron    1055.9998746 magnetization 
- augmentation part      437.5820993 magnetization 
+ augmentation part      437.5820994 magnetization 
 
  Free energy of the ion-electron system (eV)
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -32333.99552435
-  -exchange      EXHF   =      3736.77635463
-  -V(xc)+E(xc)   XCENC  =      2844.42194228
-  PAW double counting   =    119180.93670825  -134102.81504491
+  -Hartree energ DENC   =    -32333.99552145
+  -exchange      EXHF   =      3736.77635453
+  -V(xc)+E(xc)   XCENC  =      2844.42194220
+  PAW double counting   =    119180.93670798  -134102.81504344
   entropy T*S    EENTRO =        -0.03116624
-  eigenvalues    EBANDS =     -9604.37071517
+  eigenvalues    EBANDS =     -9604.37071912
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =       268.40570343 eV
+  free energy    TOTEN  =       268.40570340 eV
 
-  energy without entropy =      268.43686968  energy(sigma->0) =      268.42128655
-  exchange ACFDT corr.  =       -80.20279357  see jH, gK, PRB 81, 115126
+  energy without entropy =      268.43686964  energy(sigma->0) =      268.42128652
+  exchange ACFDT corr.  =       -80.20279358  see jH, gK, PRB 81, 115126
 
 
 --------------------------------------------------------------------------------------------------------
@@ -1445,35 +1443,35 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  10)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.5087: real time      1.5085
-    SETDIJ:  cpu time      0.4230: real time      0.4229
-    TRIAL :  cpu time    233.0272: real time    232.9936
-    CORREC:  cpu time    234.1642: real time    234.1274
-    CHARGE:  cpu time      0.2063: real time      0.2062
+    POTLOK:  cpu time      1.4768: real time      1.4766
+    SETDIJ:  cpu time      0.4657: real time      0.4657
+    TRIAL :  cpu time    233.4820: real time    233.4502
+    CORREC:  cpu time    234.5441: real time    234.5103
+    CHARGE:  cpu time      0.2245: real time      0.2244
     --------------------------------------------
-      LOOP:  cpu time    469.3312: real time    469.2608
+      LOOP:  cpu time    470.1953: real time    470.1296
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.4298294E+03  (-0.4520351E+03)
  number of electron    1055.9998442 magnetization 
- augmentation part      450.9791859 magnetization 
+ augmentation part      450.9791860 magnetization 
 
  Free energy of the ion-electron system (eV)
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -31319.61904929
-  -exchange      EXHF   =      3696.95413840
-  -V(xc)+E(xc)   XCENC  =      2816.18037463
-  PAW double counting   =    118011.68187988  -132454.48995026
-  entropy T*S    EENTRO =        -0.00602895
-  eigenvalues    EBANDS =    -11459.62766296
+  -Hartree energ DENC   =    -31319.61906881
+  -exchange      EXHF   =      3696.95413923
+  -V(xc)+E(xc)   XCENC  =      2816.18037520
+  PAW double counting   =    118011.68189993  -132454.48998199
+  entropy T*S    EENTRO =        -0.00602896
+  eigenvalues    EBANDS =    -11459.62763738
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -161.42370647 eV
+  free energy    TOTEN  =      -161.42371068 eV
 
-  energy without entropy =     -161.41767752  energy(sigma->0) =     -161.42069199
-  exchange ACFDT corr.  =        -2.98935328  see jH, gK, PRB 81, 115126
+  energy without entropy =     -161.41768172  energy(sigma->0) =     -161.42069620
+  exchange ACFDT corr.  =        -2.98935327  see jH, gK, PRB 81, 115126
 
 
 --------------------------------------------------------------------------------------------------------
@@ -1484,13 +1482,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  11)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4536: real time      1.4534
-    SETDIJ:  cpu time      0.4571: real time      0.4570
-    TRIAL :  cpu time    232.1594: real time    232.1291
-    CORREC:  cpu time    234.1713: real time    234.1379
-    CHARGE:  cpu time      0.2073: real time      0.2073
+    POTLOK:  cpu time      1.4925: real time      1.4923
+    SETDIJ:  cpu time      0.4487: real time      0.4486
+    TRIAL :  cpu time    232.5364: real time    232.5009
+    CORREC:  cpu time    234.2715: real time    234.2363
+    CHARGE:  cpu time      0.2276: real time      0.2275
     --------------------------------------------
-      LOOP:  cpu time    468.4490: real time    468.3921
+      LOOP:  cpu time    468.9770: real time    468.9110
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.4313542E+03  (-0.2032407E+03)
@@ -1501,17 +1499,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -32684.87920087
-  -exchange      EXHF   =      3783.21811837
-  -V(xc)+E(xc)   XCENC  =      2861.21172734
-  PAW double counting   =    121824.98394980  -137174.60019091
+  -Hartree energ DENC   =    -32684.87921894
+  -exchange      EXHF   =      3783.21811949
+  -V(xc)+E(xc)   XCENC  =      2861.21172802
+  PAW double counting   =    121824.98398041  -137174.60023050
   entropy T*S    EENTRO =        -0.00533870
-  eigenvalues    EBANDS =     -9750.23397454
+  eigenvalues    EBANDS =     -9750.23395176
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -592.77787040 eV
+  free energy    TOTEN  =      -592.77787285 eV
 
-  energy without entropy =     -592.77253170  energy(sigma->0) =     -592.77520105
+  energy without entropy =     -592.77253415  energy(sigma->0) =     -592.77520350
   exchange ACFDT corr.  =        -0.19693268  see jH, gK, PRB 81, 115126
 
 
@@ -1523,34 +1521,34 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  12)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4797: real time      1.4799
-    SETDIJ:  cpu time      0.4434: real time      0.4433
-    TRIAL :  cpu time    231.9604: real time    231.9254
-    CORREC:  cpu time    233.9936: real time    233.9631
-    CHARGE:  cpu time      0.2042: real time      0.2042
+    POTLOK:  cpu time      1.5014: real time      1.5012
+    SETDIJ:  cpu time      0.4449: real time      0.4448
+    TRIAL :  cpu time    232.4880: real time    232.4539
+    CORREC:  cpu time    234.2839: real time    234.2510
+    CHARGE:  cpu time      0.2284: real time      0.2284
     --------------------------------------------
-      LOOP:  cpu time    468.0816: real time    468.0165
+      LOOP:  cpu time    468.9484: real time    468.8814
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.2025199E+03  (-0.8673471E+02)
  number of electron    1055.9998427 magnetization 
- augmentation part      461.6981417 magnetization 
+ augmentation part      461.6981416 magnetization 
 
  Free energy of the ion-electron system (eV)
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33596.85934629
-  -exchange      EXHF   =      3871.58389312
-  -V(xc)+E(xc)   XCENC  =      2902.95447018
-  PAW double counting   =    124277.67138688  -140032.00528300
+  -Hartree energ DENC   =    -33596.85935026
+  -exchange      EXHF   =      3871.58389364
+  -V(xc)+E(xc)   XCENC  =      2902.95447041
+  PAW double counting   =    124277.67139493  -140032.00528903
   entropy T*S    EENTRO =        -0.00310278
-  eigenvalues    EBANDS =     -8766.16526827
+  eigenvalues    EBANDS =     -8766.16526793
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -795.29775671 eV
+  free energy    TOTEN  =      -795.29775755 eV
 
-  energy without entropy =     -795.29465394  energy(sigma->0) =     -795.29620532
+  energy without entropy =     -795.29465478  energy(sigma->0) =     -795.29620616
   exchange ACFDT corr.  =        -0.04945161  see jH, gK, PRB 81, 115126
 
 
@@ -1562,13 +1560,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  13)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4824: real time      1.4822
-    SETDIJ:  cpu time      0.4407: real time      0.4405
-    TRIAL :  cpu time    232.0359: real time    232.0045
-    CORREC:  cpu time    234.0035: real time    233.9696
-    CHARGE:  cpu time      0.2212: real time      0.2212
+    POTLOK:  cpu time      1.4840: real time      1.4838
+    SETDIJ:  cpu time      0.4668: real time      0.4667
+    TRIAL :  cpu time    232.4725: real time    232.4387
+    CORREC:  cpu time    234.2091: real time    234.1747
+    CHARGE:  cpu time      0.2247: real time      0.2247
     --------------------------------------------
-      LOOP:  cpu time    468.1849: real time    468.1197
+      LOOP:  cpu time    468.8584: real time    468.7903
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.8833813E+02  (-0.4565007E+02)
@@ -1579,17 +1577,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33960.23879198
-  -exchange      EXHF   =      3918.12237073
-  -V(xc)+E(xc)   XCENC  =      2925.08597919
-  PAW double counting   =    124187.52994196  -139775.46373839
+  -Hartree energ DENC   =    -33960.23878991
+  -exchange      EXHF   =      3918.12237080
+  -V(xc)+E(xc)   XCENC  =      2925.08597918
+  PAW double counting   =    124187.52993245  -139775.46372390
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8726.19627489
+  eigenvalues    EBANDS =     -8726.19628254
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -883.63588678 eV
+  free energy    TOTEN  =      -883.63588734 eV
 
-  energy without entropy =     -883.63588678  energy(sigma->0) =     -883.63588678
+  energy without entropy =     -883.63588734  energy(sigma->0) =     -883.63588734
   exchange ACFDT corr.  =        -0.10841083  see jH, gK, PRB 81, 115126
 
 
@@ -1601,13 +1599,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  14)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.5042: real time      1.5040
-    SETDIJ:  cpu time      0.4217: real time      0.4217
-    TRIAL :  cpu time    231.9855: real time    231.9499
-    CORREC:  cpu time    234.0666: real time    234.0339
-    CHARGE:  cpu time      0.2088: real time      0.2088
+    POTLOK:  cpu time      1.5090: real time      1.5088
+    SETDIJ:  cpu time      0.4229: real time      0.4229
+    TRIAL :  cpu time    232.3126: real time    232.2726
+    CORREC:  cpu time    234.0648: real time    234.0284
+    CHARGE:  cpu time      0.2248: real time      0.2248
     --------------------------------------------
-      LOOP:  cpu time    468.1882: real time    468.1199
+      LOOP:  cpu time    468.5344: real time    468.4580
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.4471081E+02  (-0.1711323E+02)
@@ -1618,17 +1616,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -34000.11193828
-  -exchange      EXHF   =      3918.40726438
-  -V(xc)+E(xc)   XCENC  =      2928.37686872
-  PAW double counting   =    122673.06356830  -138118.97295451
+  -Hartree energ DENC   =    -34000.11193924
+  -exchange      EXHF   =      3918.40726426
+  -V(xc)+E(xc)   XCENC  =      2928.37686870
+  PAW double counting   =    122673.06356415  -138118.97295300
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8876.63723483
+  eigenvalues    EBANDS =     -8876.63723129
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -928.34669684 eV
+  free energy    TOTEN  =      -928.34669703 eV
 
-  energy without entropy =     -928.34669684  energy(sigma->0) =     -928.34669684
+  energy without entropy =     -928.34669703  energy(sigma->0) =     -928.34669703
   exchange ACFDT corr.  =         0.00000000  see jH, gK, PRB 81, 115126
 
 
@@ -1640,13 +1638,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  15)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.5189: real time      1.5187
-    SETDIJ:  cpu time      0.4240: real time      0.4239
-    TRIAL :  cpu time    231.8316: real time    231.8000
-    CORREC:  cpu time    233.8872: real time    233.8501
-    CHARGE:  cpu time      0.2094: real time      0.2094
+    POTLOK:  cpu time      1.5011: real time      1.5009
+    SETDIJ:  cpu time      0.4275: real time      0.4274
+    TRIAL :  cpu time    232.4748: real time    232.4433
+    CORREC:  cpu time    234.0354: real time    234.0035
+    CHARGE:  cpu time      0.2201: real time      0.2200
     --------------------------------------------
-      LOOP:  cpu time    467.8717: real time    467.8030
+      LOOP:  cpu time    468.6616: real time    468.5983
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.1710392E+02  (-0.7743567E+01)
@@ -1657,17 +1655,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33957.62588514
-  -exchange      EXHF   =      3901.14311208
-  -V(xc)+E(xc)   XCENC  =      2922.73946475
-  PAW double counting   =    121922.88633725  -137488.71838968
+  -Hartree energ DENC   =    -33957.62588603
+  -exchange      EXHF   =      3901.14311201
+  -V(xc)+E(xc)   XCENC  =      2922.73946474
+  PAW double counting   =    121922.88633617  -137488.71839148
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8793.40298667
+  eigenvalues    EBANDS =     -8793.40298293
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -945.45061803 eV
+  free energy    TOTEN  =      -945.45061814 eV
 
-  energy without entropy =     -945.45061803  energy(sigma->0) =     -945.45061803
+  energy without entropy =     -945.45061814  energy(sigma->0) =     -945.45061814
   exchange ACFDT corr.  =         0.00000000  see jH, gK, PRB 81, 115126
 
 
@@ -1679,13 +1677,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  16)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.5053: real time      1.5050
-    SETDIJ:  cpu time      0.4378: real time      0.4377
-    TRIAL :  cpu time    231.9752: real time    231.9397
-    CORREC:  cpu time    234.1788: real time    234.1427
-    CHARGE:  cpu time      0.2134: real time      0.2133
+    POTLOK:  cpu time      1.5063: real time      1.5061
+    SETDIJ:  cpu time      0.4223: real time      0.4223
+    TRIAL :  cpu time    232.3712: real time    232.3316
+    CORREC:  cpu time    234.1370: real time    234.0985
+    CHARGE:  cpu time      0.2268: real time      0.2268
     --------------------------------------------
-      LOOP:  cpu time    468.3107: real time    468.2415
+      LOOP:  cpu time    468.6639: real time    468.5904
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.7741013E+01  (-0.3007484E+01)
@@ -1696,17 +1694,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33855.45773935
-  -exchange      EXHF   =      3890.77649522
-  -V(xc)+E(xc)   XCENC  =      2916.92385859
-  PAW double counting   =    121650.44486408  -137275.71233961
+  -Hartree energ DENC   =    -33855.45773828
+  -exchange      EXHF   =      3890.77649521
+  -V(xc)+E(xc)   XCENC  =      2916.92385856
+  PAW double counting   =    121650.44486150  -137275.71233654
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8827.69449899
+  eigenvalues    EBANDS =     -8827.69450057
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -953.19163068 eV
+  free energy    TOTEN  =      -953.19163074 eV
 
-  energy without entropy =     -953.19163068  energy(sigma->0) =     -953.19163068
+  energy without entropy =     -953.19163074  energy(sigma->0) =     -953.19163074
   exchange ACFDT corr.  =        -0.00000000  see jH, gK, PRB 81, 115126
 
 
@@ -1718,13 +1716,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  17)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4795: real time      1.4793
-    SETDIJ:  cpu time      0.4325: real time      0.4325
-    TRIAL :  cpu time    231.9176: real time    231.8807
-    CORREC:  cpu time    233.9163: real time    233.8798
-    CHARGE:  cpu time      0.2156: real time      0.2155
+    POTLOK:  cpu time      1.4911: real time      1.4909
+    SETDIJ:  cpu time      0.4705: real time      0.4704
+    TRIAL :  cpu time    232.3712: real time    232.3354
+    CORREC:  cpu time    234.1109: real time    234.0785
+    CHARGE:  cpu time      0.2286: real time      0.2286
     --------------------------------------------
-      LOOP:  cpu time    467.9618: real time    467.8884
+      LOOP:  cpu time    468.6726: real time    468.6043
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.3008737E+01  (-0.1269249E+01)
@@ -1735,17 +1733,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33822.51288139
-  -exchange      EXHF   =      3891.21367922
-  -V(xc)+E(xc)   XCENC  =      2916.25099282
-  PAW double counting   =    121459.98149463  -137042.91085851
+  -Hartree energ DENC   =    -33822.51288057
+  -exchange      EXHF   =      3891.21367924
+  -V(xc)+E(xc)   XCENC  =      2916.25099281
+  PAW double counting   =    121459.98149163  -137042.91085406
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8905.75052424
+  eigenvalues    EBANDS =     -8905.75052654
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -956.20036809 eV
+  free energy    TOTEN  =      -956.20036811 eV
 
-  energy without entropy =     -956.20036809  energy(sigma->0) =     -956.20036809
+  energy without entropy =     -956.20036811  energy(sigma->0) =     -956.20036811
   exchange ACFDT corr.  =         0.00000000  see jH, gK, PRB 81, 115126
 
 
@@ -1757,13 +1755,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  18)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4347: real time      1.4345
-    SETDIJ:  cpu time      0.4905: real time      0.4904
-    TRIAL :  cpu time    231.8728: real time    231.8395
-    CORREC:  cpu time    233.7962: real time    233.7630
-    CHARGE:  cpu time      0.2056: real time      0.2056
+    POTLOK:  cpu time      1.4932: real time      1.4930
+    SETDIJ:  cpu time      0.4369: real time      0.4368
+    TRIAL :  cpu time    232.4574: real time    232.4170
+    CORREC:  cpu time    233.9562: real time    233.9195
+    CHARGE:  cpu time      0.2270: real time      0.2270
     --------------------------------------------
-      LOOP:  cpu time    467.8010: real time    467.7346
+      LOOP:  cpu time    468.5720: real time    468.4950
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.1269763E+01  (-0.5064623E+00)
@@ -1774,17 +1772,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33862.12735673
-  -exchange      EXHF   =      3894.50379921
-  -V(xc)+E(xc)   XCENC  =      2918.23622648
-  PAW double counting   =    121298.73083827  -136853.27426546
+  -Hartree energ DENC   =    -33862.12735739
+  -exchange      EXHF   =      3894.50379924
+  -V(xc)+E(xc)   XCENC  =      2918.23622650
+  PAW double counting   =    121298.73083725  -136853.27426456
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8901.06710250
+  eigenvalues    EBANDS =     -8901.06710179
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -957.47013136 eV
+  free energy    TOTEN  =      -957.47013137 eV
 
-  energy without entropy =     -957.47013136  energy(sigma->0) =     -957.47013136
+  energy without entropy =     -957.47013137  energy(sigma->0) =     -957.47013137
   exchange ACFDT corr.  =        -0.00000000  see jH, gK, PRB 81, 115126
 
 
@@ -1796,13 +1794,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  19)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4601: real time      1.4598
-    SETDIJ:  cpu time      0.4830: real time      0.4830
-    TRIAL :  cpu time    231.9750: real time    231.9421
-    CORREC:  cpu time    233.8876: real time    233.8544
-    CHARGE:  cpu time      0.2141: real time      0.2140
+    POTLOK:  cpu time      1.5036: real time      1.5034
+    SETDIJ:  cpu time      0.4650: real time      0.4649
+    TRIAL :  cpu time    232.3914: real time    232.3516
+    CORREC:  cpu time    234.1768: real time    234.1350
+    CHARGE:  cpu time      0.2271: real time      0.2271
     --------------------------------------------
-      LOOP:  cpu time    468.0214: real time    467.9553
+      LOOP:  cpu time    468.7648: real time    468.6832
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.5062114E+00  (-0.2088304E+00)
@@ -1813,17 +1811,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33891.76805506
+  -Hartree energ DENC   =    -33891.76805546
   -exchange      EXHF   =      3895.33392487
-  -V(xc)+E(xc)   XCENC  =      2919.07647805
-  PAW double counting   =    121269.40412609  -136835.96429771
+  -V(xc)+E(xc)   XCENC  =      2919.07647806
+  PAW double counting   =    121269.40412681  -136835.96429895
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8861.58624841
+  eigenvalues    EBANDS =     -8861.58624750
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -957.97634279 eV
+  free energy    TOTEN  =      -957.97634280 eV
 
-  energy without entropy =     -957.97634279  energy(sigma->0) =     -957.97634279
+  energy without entropy =     -957.97634280  energy(sigma->0) =     -957.97634280
   exchange ACFDT corr.  =        -0.00000000  see jH, gK, PRB 81, 115126
 
 
@@ -1835,13 +1833,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  20)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.5167: real time      1.5164
-    SETDIJ:  cpu time      0.4230: real time      0.4230
-    TRIAL :  cpu time    231.8801: real time    231.8465
-    CORREC:  cpu time    233.8089: real time    233.7773
-    CHARGE:  cpu time      0.2185: real time      0.2184
+    POTLOK:  cpu time      1.5129: real time      1.5127
+    SETDIJ:  cpu time      0.4361: real time      0.4360
+    TRIAL :  cpu time    232.3620: real time    232.3206
+    CORREC:  cpu time    234.2906: real time    234.2546
+    CHARGE:  cpu time      0.2299: real time      0.2298
     --------------------------------------------
-      LOOP:  cpu time    467.8493: real time    467.7842
+      LOOP:  cpu time    468.8318: real time    468.7544
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.2087381E+00  (-0.8254651E-01)
@@ -1852,17 +1850,17 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33881.76834528
-  -exchange      EXHF   =      3894.20350514
-  -V(xc)+E(xc)   XCENC  =      2918.34889467
-  PAW double counting   =    121312.07576699  -136888.68778533
+  -Hartree energ DENC   =    -33881.76834504
+  -exchange      EXHF   =      3894.20350513
+  -V(xc)+E(xc)   XCENC  =      2918.34889466
+  PAW double counting   =    121312.07576766  -136888.68778601
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8859.88484642
+  eigenvalues    EBANDS =     -8859.88484662
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
-  free energy    TOTEN  =      -958.18508085 eV
+  free energy    TOTEN  =      -958.18508086 eV
 
-  energy without entropy =     -958.18508085  energy(sigma->0) =     -958.18508085
+  energy without entropy =     -958.18508086  energy(sigma->0) =     -958.18508086
   exchange ACFDT corr.  =        -0.00000000  see jH, gK, PRB 81, 115126
 
 
@@ -1874,13 +1872,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  21)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.5113: real time      1.5111
-    SETDIJ:  cpu time      0.4238: real time      0.4237
-    TRIAL :  cpu time    231.7791: real time    231.7494
-    CORREC:  cpu time    233.9462: real time    233.9194
-    CHARGE:  cpu time      0.2153: real time      0.2153
+    POTLOK:  cpu time      1.5088: real time      1.5086
+    SETDIJ:  cpu time      0.4342: real time      0.4341
+    TRIAL :  cpu time    232.5093: real time    232.4757
+    CORREC:  cpu time    234.0456: real time    234.0139
+    CHARGE:  cpu time      0.2261: real time      0.2261
     --------------------------------------------
-      LOOP:  cpu time    467.8759: real time    467.8244
+      LOOP:  cpu time    468.7243: real time    468.6636
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.8252270E-01  (-0.3072797E-01)
@@ -1891,12 +1889,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33865.88183507
+  -Hartree energ DENC   =    -33865.88183485
   -exchange      EXHF   =      3893.46223543
   -V(xc)+E(xc)   XCENC  =      2917.69952984
-  PAW double counting   =    121343.58724694  -136917.52813217
+  PAW double counting   =    121343.58724694  -136917.52813194
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8877.13437791
+  eigenvalues    EBANDS =     -8877.13437835
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.26760356 eV
@@ -1913,13 +1911,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  22)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4948: real time      1.4947
-    SETDIJ:  cpu time      0.4701: real time      0.4700
-    TRIAL :  cpu time    231.9049: real time    231.8708
-    CORREC:  cpu time    234.0607: real time    234.0325
-    CHARGE:  cpu time      0.2067: real time      0.2067
+    POTLOK:  cpu time      1.4706: real time      1.4704
+    SETDIJ:  cpu time      0.4561: real time      0.4560
+    TRIAL :  cpu time    232.4605: real time    232.4271
+    CORREC:  cpu time    234.0588: real time    234.0223
+    CHARGE:  cpu time      0.2207: real time      0.2207
     --------------------------------------------
-      LOOP:  cpu time    468.1402: real time    468.0780
+      LOOP:  cpu time    468.6693: real time    468.5996
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.3071602E-01  (-0.1285563E-01)
@@ -1930,12 +1928,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33865.91368857
+  -Hartree energ DENC   =    -33865.91368871
   -exchange      EXHF   =      3893.69744868
-  -V(xc)+E(xc)   XCENC  =      2917.78796471
-  PAW double counting   =    121352.60608933  -136923.65239910
+  -V(xc)+E(xc)   XCENC  =      2917.78796472
+  PAW double counting   =    121352.60608927  -136923.65239908
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8880.35146400
+  eigenvalues    EBANDS =     -8880.35146384
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.29831958 eV
@@ -1952,13 +1950,13 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  23)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4592: real time      1.4590
-    SETDIJ:  cpu time      0.4557: real time      0.4556
-    TRIAL :  cpu time    231.9557: real time    231.9288
-    CORREC:  cpu time    233.7276: real time    233.6977
-    CHARGE:  cpu time      0.2059: real time      0.2058
+    POTLOK:  cpu time      1.4966: real time      1.4963
+    SETDIJ:  cpu time      0.4870: real time      0.4869
+    TRIAL :  cpu time    232.3415: real time    232.3049
+    CORREC:  cpu time    234.1335: real time    234.0964
+    CHARGE:  cpu time      0.2250: real time      0.2250
     --------------------------------------------
-      LOOP:  cpu time    467.8044: real time    467.7476
+      LOOP:  cpu time    468.6852: real time    468.6114
 
  eigenvalue-minimisations  :     0
  total energy-change (2. order) :-0.1285524E-01  (-0.5077358E-02)
@@ -1969,12 +1967,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33872.99443057
+  -Hartree energ DENC   =    -33872.99443074
   -exchange      EXHF   =      3894.15269368
-  -V(xc)+E(xc)   XCENC  =      2918.11127727
-  PAW double counting   =    121355.67176593  -136927.95253548
+  -V(xc)+E(xc)   XCENC  =      2918.11127728
+  PAW double counting   =    121355.67176589  -136927.95253552
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8872.82767503
+  eigenvalues    EBANDS =     -8872.82767480
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.31117482 eV
@@ -1991,16 +1989,16 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  24)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4399: real time      1.4405
-    SETDIJ:  cpu time      0.4960: real time      0.4959
-    TRIAL :  cpu time    231.8857: real time    231.8502
-    CORREC:  cpu time    234.1274: real time    234.0972
-    CHARGE:  cpu time      0.2201: real time      0.2200
+    POTLOK:  cpu time      1.4799: real time      1.4797
+    SETDIJ:  cpu time      0.4545: real time      0.4545
+    TRIAL :  cpu time    232.2902: real time    232.2520
+    CORREC:  cpu time    234.1794: real time    234.1407
+    CHARGE:  cpu time      0.2279: real time      0.2279
     --------------------------------------------
-      LOOP:  cpu time    468.1709: real time    468.1061
+      LOOP:  cpu time    468.6341: real time    468.5575
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.5078876E-02  (-0.2261333E-02)
+ total energy-change (2. order) :-0.5078875E-02  (-0.2261333E-02)
  number of electron    1055.9998556 magnetization 
  augmentation part      460.7398879 magnetization 
 
@@ -2008,12 +2006,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33875.13305196
+  -Hartree energ DENC   =    -33875.13305195
   -exchange      EXHF   =      3894.25073837
   -V(xc)+E(xc)   XCENC  =      2918.19886229
-  PAW double counting   =    121357.43974217  -136930.57060444
+  PAW double counting   =    121357.43974217  -136930.57060443
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8870.02966951
+  eigenvalues    EBANDS =     -8870.02966952
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.31625370 eV
@@ -2030,16 +2028,16 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  25)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4889: real time      1.4886
-    SETDIJ:  cpu time      0.4410: real time      0.4409
-    TRIAL :  cpu time    231.8129: real time    231.7782
-    CORREC:  cpu time    233.8999: real time    233.8634
-    CHARGE:  cpu time      0.2171: real time      0.2171
+    POTLOK:  cpu time      1.4580: real time      1.4577
+    SETDIJ:  cpu time      0.5057: real time      0.5057
+    TRIAL :  cpu time    232.5471: real time    232.5063
+    CORREC:  cpu time    233.8819: real time    233.8412
+    CHARGE:  cpu time      0.2281: real time      0.2281
     --------------------------------------------
-      LOOP:  cpu time    467.8617: real time    467.7904
+      LOOP:  cpu time    468.6213: real time    468.5397
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.2261110E-02  (-0.8802419E-03)
+ total energy-change (2. order) :-0.2261110E-02  (-0.8802418E-03)
  number of electron    1055.9998555 magnetization 
  augmentation part      460.7334593 magnetization 
 
@@ -2047,12 +2045,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33873.07049475
+  -Hartree energ DENC   =    -33873.07049465
   -exchange      EXHF   =      3894.11759576
   -V(xc)+E(xc)   XCENC  =      2918.11162238
-  PAW double counting   =    121358.62200259  -136931.19579574
+  PAW double counting   =    121358.62200267  -136931.19579577
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8872.43117442
+  eigenvalues    EBANDS =     -8872.43117457
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.31851481 eV
@@ -2069,16 +2067,16 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  26)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.5120: real time      1.5118
-    SETDIJ:  cpu time      0.4458: real time      0.4458
-    TRIAL :  cpu time    231.8435: real time    231.8157
-    CORREC:  cpu time    233.9996: real time    233.9712
-    CHARGE:  cpu time      0.2158: real time      0.2157
+    POTLOK:  cpu time      1.5116: real time      1.5114
+    SETDIJ:  cpu time      0.4765: real time      0.4765
+    TRIAL :  cpu time    232.4878: real time    232.4516
+    CORREC:  cpu time    234.2321: real time    234.1943
+    CHARGE:  cpu time      0.2254: real time      0.2254
     --------------------------------------------
-      LOOP:  cpu time    468.0170: real time    467.9622
+      LOOP:  cpu time    468.9338: real time    468.8646
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.8799185E-03  (-0.3782073E-03)
+ total energy-change (2. order) :-0.8799185E-03  (-0.3782072E-03)
  number of electron    1055.9998555 magnetization 
  augmentation part      460.7367907 magnetization 
 
@@ -2086,12 +2084,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33871.55549727
-  -exchange      EXHF   =      3894.02898592
-  -V(xc)+E(xc)   XCENC  =      2918.04847390
-  PAW double counting   =    121359.77602572  -136931.89169214
+  -Hartree energ DENC   =    -33871.55549742
+  -exchange      EXHF   =      3894.02898593
+  -V(xc)+E(xc)   XCENC  =      2918.04847391
+  PAW double counting   =    121359.77602571  -136931.89169219
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8874.25342023
+  eigenvalues    EBANDS =     -8874.25342004
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.31939473 eV
@@ -2108,16 +2106,16 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  27)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4813: real time      1.4811
-    SETDIJ:  cpu time      0.4740: real time      0.4740
-    TRIAL :  cpu time    232.1037: real time    232.0738
-    CORREC:  cpu time    233.8079: real time    233.7783
-    CHARGE:  cpu time      0.2079: real time      0.2079
+    POTLOK:  cpu time      1.5494: real time      1.5491
+    SETDIJ:  cpu time      0.4232: real time      0.4231
+    TRIAL :  cpu time    232.3193: real time    232.2790
+    CORREC:  cpu time    234.0853: real time    234.0432
+    CHARGE:  cpu time      0.2228: real time      0.2228
     --------------------------------------------
-      LOOP:  cpu time    468.0750: real time    468.0156
+      LOOP:  cpu time    468.6005: real time    468.5180
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.3775194E-03  (-0.1571382E-03)
+ total energy-change (2. order) :-0.3775193E-03  (-0.1571382E-03)
  number of electron    1055.9998555 magnetization 
  augmentation part      460.7411232 magnetization 
 
@@ -2125,12 +2123,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33871.85143225
+  -Hartree energ DENC   =    -33871.85143222
   -exchange      EXHF   =      3894.04752574
   -V(xc)+E(xc)   XCENC  =      2918.06017344
-  PAW double counting   =    121361.12519829  -136933.41547903
+  PAW double counting   =    121361.12519782  -136933.41547852
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8873.81348781
+  eigenvalues    EBANDS =     -8873.81348788
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.31977225 eV
@@ -2147,16 +2145,16 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  28)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4981: real time      1.4979
-    SETDIJ:  cpu time      0.4397: real time      0.4397
-    TRIAL :  cpu time    231.7503: real time    231.7201
-    CORREC:  cpu time    234.0734: real time    234.0427
-    CHARGE:  cpu time      0.2139: real time      0.2138
+    POTLOK:  cpu time      1.5077: real time      1.5074
+    SETDIJ:  cpu time      0.4394: real time      0.4392
+    TRIAL :  cpu time    232.3734: real time    232.3343
+    CORREC:  cpu time    234.2275: real time    234.1807
+    CHARGE:  cpu time      0.2259: real time      0.2258
     --------------------------------------------
-      LOOP:  cpu time    467.9758: real time    467.9149
+      LOOP:  cpu time    468.7750: real time    468.6889
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.1566647E-03  (-0.6496213E-04)
+ total energy-change (2. order) :-0.1566647E-03  (-0.6496228E-04)
  number of electron    1055.9998555 magnetization 
  augmentation part      460.7408162 magnetization 
 
@@ -2164,12 +2162,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33872.60328485
-  -exchange      EXHF   =      3894.09493814
+  -Hartree energ DENC   =    -33872.60328476
+  -exchange      EXHF   =      3894.09493813
   -V(xc)+E(xc)   XCENC  =      2918.09222640
-  PAW double counting   =    121361.98061023  -136934.49248590
+  PAW double counting   =    121361.98060976  -136934.49248541
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8872.91966230
+  eigenvalues    EBANDS =     -8872.91966240
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.31992891 eV
@@ -2186,16 +2184,16 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  29)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4596: real time      1.4594
-    SETDIJ:  cpu time      0.4764: real time      0.4763
-    TRIAL :  cpu time    231.8986: real time    231.8691
-    CORREC:  cpu time    233.8484: real time    233.8257
-    CHARGE:  cpu time      0.2163: real time      0.2163
+    POTLOK:  cpu time      1.4916: real time      1.4913
+    SETDIJ:  cpu time      0.4378: real time      0.4378
+    TRIAL :  cpu time    232.5755: real time    232.5302
+    CORREC:  cpu time    234.1862: real time    234.1405
+    CHARGE:  cpu time      0.2268: real time      0.2267
     --------------------------------------------
-      LOOP:  cpu time    467.9005: real time    467.8483
+      LOOP:  cpu time    468.9192: real time    468.8280
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.6468057E-04  (-0.2634777E-04)
+ total energy-change (2. order) :-0.6468067E-04  (-0.2634760E-04)
  number of electron    1055.9998555 magnetization 
  augmentation part      460.7389649 magnetization 
 
@@ -2203,12 +2201,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33872.73505381
-  -exchange      EXHF   =      3894.10702618
-  -V(xc)+E(xc)   XCENC  =      2918.09919958
-  PAW double counting   =    121362.27921431  -136934.72876037
+  -Hartree energ DENC   =    -33872.73505413
+  -exchange      EXHF   =      3894.10702621
+  -V(xc)+E(xc)   XCENC  =      2918.09919959
+  PAW double counting   =    121362.27921474  -136934.72876065
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8872.86934886
+  eigenvalues    EBANDS =     -8872.86934873
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.31999359 eV
@@ -2225,16 +2223,16 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  30)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.5180: real time      1.5178
-    SETDIJ:  cpu time      0.4282: real time      0.4281
-    TRIAL :  cpu time    231.7637: real time    231.7335
-    CORREC:  cpu time    233.8563: real time    233.8244
-    CHARGE:  cpu time      0.2064: real time      0.2064
+    POTLOK:  cpu time      1.5053: real time      1.5050
+    SETDIJ:  cpu time      0.4359: real time      0.4358
+    TRIAL :  cpu time    232.3727: real time    232.3281
+    CORREC:  cpu time    234.2230: real time    234.1784
+    CHARGE:  cpu time      0.2193: real time      0.2192
     --------------------------------------------
-      LOOP:  cpu time    467.7731: real time    467.7110
+      LOOP:  cpu time    468.7564: real time    468.6670
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.2626378E-04  (-0.1102742E-04)
+ total energy-change (2. order) :-0.2626375E-04  (-0.1102737E-04)
  number of electron    1055.9998555 magnetization 
  augmentation part      460.7384573 magnetization 
 
@@ -2242,12 +2240,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33872.50229308
-  -exchange      EXHF   =      3894.09432174
-  -V(xc)+E(xc)   XCENC  =      2918.08939945
-  PAW double counting   =    121362.39441412  -136934.74200718
+  -Hartree energ DENC   =    -33872.50229435
+  -exchange      EXHF   =      3894.09432182
+  -V(xc)+E(xc)   XCENC  =      2918.08939950
+  PAW double counting   =    121362.39441437  -136934.74200794
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8873.18158428
+  eigenvalues    EBANDS =     -8873.18158263
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.32001985 eV
@@ -2264,16 +2262,16 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  31)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4542: real time      1.4541
-    SETDIJ:  cpu time      0.4887: real time      0.4887
-    TRIAL :  cpu time    231.9418: real time    231.9080
-    CORREC:  cpu time    233.9263: real time    233.8911
-    CHARGE:  cpu time      0.2211: real time      0.2211
+    POTLOK:  cpu time      1.5254: real time      1.5251
+    SETDIJ:  cpu time      0.4284: real time      0.4330
+    TRIAL :  cpu time    232.3210: real time    232.2747
+    CORREC:  cpu time    234.1147: real time    234.0721
+    CHARGE:  cpu time      0.2284: real time      0.2284
     --------------------------------------------
-      LOOP:  cpu time    468.0325: real time    467.9654
+      LOOP:  cpu time    468.6187: real time    468.5345
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.1103092E-04  (-0.4368303E-05)
+ total energy-change (2. order) :-0.1103095E-04  (-0.4368220E-05)
  number of electron    1055.9998555 magnetization 
  augmentation part      460.7389174 magnetization 
 
@@ -2281,12 +2279,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33872.37063596
-  -exchange      EXHF   =      3894.08473962
-  -V(xc)+E(xc)   XCENC  =      2918.08275752
-  PAW double counting   =    121362.45178142  -136934.80805011
+  -Hartree energ DENC   =    -33872.37063719
+  -exchange      EXHF   =      3894.08473971
+  -V(xc)+E(xc)   XCENC  =      2918.08275758
+  PAW double counting   =    121362.45178078  -136934.80804943
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8873.28835276
+  eigenvalues    EBANDS =     -8873.28835171
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.32003089 eV
@@ -2303,17 +2301,17 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  32)  ---------------------------------------
 
 
-    POTLOK:  cpu time      1.4284: real time      1.4282
-    SETDIJ:  cpu time      0.5201: real time      0.5200
-    TRIAL :  cpu time    231.8873: real time    231.8621
-    CORREC:  cpu time    233.7886: real time    233.7579
-    EDDIAG:  cpu time    229.7336: real time    229.7017
-    CHARGE:  cpu time      0.2567: real time      0.2567
+    POTLOK:  cpu time      1.4953: real time      1.4950
+    SETDIJ:  cpu time      0.4667: real time      0.4666
+    TRIAL :  cpu time    232.3823: real time    232.3417
+    CORREC:  cpu time    234.1165: real time    234.0733
+    EDDIAG:  cpu time    230.2135: real time    230.1692
+    CHARGE:  cpu time      0.2058: real time      0.2057
     --------------------------------------------
-      LOOP:  cpu time    698.5120: real time    698.4242
+      LOOP:  cpu time    698.8803: real time    698.7520
 
  eigenvalue-minimisations  :     0
- total energy-change (2. order) :-0.4387308E-05  (-0.1823817E-05)
+ total energy-change (2. order) :-0.4387250E-05  (-0.1823953E-05)
  number of electron    1055.9998555 magnetization 
  augmentation part      460.7392914 magnetization 
 
@@ -2321,12 +2319,12 @@ Automatic generation of k-mesh.
   ---------------------------------------------------
   alpha Z        PSCENC =      5537.53060054
   Ewald energy   TEWEN  =    -88891.37402132
-  -Hartree energ DENC   =    -33872.39655286
-  -exchange      EXHF   =      3894.08921649
-  -V(xc)+E(xc)   XCENC  =      2918.08353038
-  PAW double counting   =    121362.34101158  -136934.74243090
+  -Hartree energ DENC   =    -33872.39655246
+  -exchange      EXHF   =      3894.08921672
+  -V(xc)+E(xc)   XCENC  =      2918.08353037
+  PAW double counting   =    121362.41679938  -136934.81134187
   entropy T*S    EENTRO =        -0.00000000
-  eigenvalues    EBANDS =     -8873.22576782
+  eigenvalues    EBANDS =     -8873.22576916
   atomic energy  EATOM  =    133901.37115015
   ---------------------------------------------------
   free energy    TOTEN  =      -958.32003527 eV
@@ -2341,179 +2339,39 @@ Automatic generation of k-mesh.
   average scaling for gradient   0.4815
 
 
- the core state eigenenergies are
-   1-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-   2-  1s -10216.4678  2s  -1249.7359  2p  -1086.1889  3s   -136.8820  3p    -87.6698
-     
-   3-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-   4-  1s -10216.4678  2s  -1249.7359  2p  -1086.1889  3s   -136.8820  3p    -87.6698
-     
-   5-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-   6-  1s -10216.4678  2s  -1249.7359  2p  -1086.1889  3s   -136.8820  3p    -87.6697
-     
-   7-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-   8-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-   9-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  10-  1s -10216.4678  2s  -1249.7359  2p  -1086.1888  3s   -136.8820  3p    -87.6697
-     
-  11-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  12-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  13-  1s -10216.4906  2s  -1249.8624  2p  -1086.3051  3s   -136.9693  3p    -87.7557
-     
-  14-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7557
-     
-  15-  1s -10216.4906  2s  -1249.8624  2p  -1086.3050  3s   -136.9693  3p    -87.7557
-     
-  16-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7557
-     
-  17-  1s -10216.4906  2s  -1249.8624  2p  -1086.3050  3s   -136.9693  3p    -87.7557
-     
-  18-  1s -10216.4906  2s  -1249.8624  2p  -1086.3050  3s   -136.9692  3p    -87.7557
-     
-  19-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7557
-     
-  20-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7558
-     
-  21-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7558
-     
-  22-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7558
-     
-  23-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7557
-     
-  24-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7558
-     
-  25-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  26-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  27-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  28-  1s -10216.4677  2s  -1249.7358  2p  -1086.1887  3s   -136.8819  3p    -87.6697
-     
-  29-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  30-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  31-  1s -10216.4678  2s  -1249.7359  2p  -1086.1889  3s   -136.8820  3p    -87.6697
-     
-  32-  1s -10216.4676  2s  -1249.7357  2p  -1086.1887  3s   -136.8819  3p    -87.6696
-     
-  33-  1s -10216.4678  2s  -1249.7359  2p  -1086.1888  3s   -136.8820  3p    -87.6697
-     
-  34-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  35-  1s -10216.4677  2s  -1249.7358  2p  -1086.1888  3s   -136.8819  3p    -87.6697
-     
-  36-  1s -10216.4677  2s  -1249.7358  2p  -1086.1887  3s   -136.8819  3p    -87.6696
-     
-  37-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7558
-     
-  38-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7557
-     
-  39-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7558
-     
-  40-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7557
-     
-  41-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7557
-     
-  42-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7558
-     
-  43-  1s -10216.4906  2s  -1249.8624  2p  -1086.3050  3s   -136.9692  3p    -87.7557
-     
-  44-  1s -10216.4907  2s  -1249.8625  2p  -1086.3051  3s   -136.9693  3p    -87.7558
-     
-  45-  1s -10216.4906  2s  -1249.8624  2p  -1086.3050  3s   -136.9693  3p    -87.7557
-     
-  46-  1s -10216.4906  2s  -1249.8624  2p  -1086.3050  3s   -136.9693  3p    -87.7557
-     
-  47-  1s -10216.4906  2s  -1249.8624  2p  -1086.3050  3s   -136.9693  3p    -87.7557
-     
-  48-  1s -10216.4906  2s  -1249.8624  2p  -1086.3050  3s   -136.9693  3p    -87.7557
-     
-  49-  1s   -500.4688
-  50-  1s   -500.4685
-  51-  1s   -500.4694
-  52-  1s   -500.4685
-  53-  1s   -500.4689
-  54-  1s   -500.4685
-  55-  1s   -500.4688
-  56-  1s   -500.4684
-  57-  1s   -500.4687
-  58-  1s   -500.4691
-  59-  1s   -500.4684
-  60-  1s   -500.4686
-  61-  1s   -500.6473
-  62-  1s   -500.6475
-  63-  1s   -500.6474
-  64-  1s   -500.6476
-  65-  1s   -500.6474
-  66-  1s   -500.6475
-  67-  1s   -500.6474
-  68-  1s   -500.6476
-  69-  1s   -500.6473
-  70-  1s   -500.6476
-  71-  1s   -500.6473
-  72-  1s   -500.6476
-  73-  1s   -500.2155
-  74-  1s   -500.2145
-  75-  1s   -500.2153
-  76-  1s   -500.2152
-  77-  1s   -500.2153
-  78-  1s   -500.2150
-  79-  1s   -500.2155
-  80-  1s   -500.2157
-  81-  1s   -500.2152
-  82-  1s   -500.2158
-  83-  1s   -500.2154
-  84-  1s   -500.2157
-  85-  1s   -500.4687
-  86-  1s   -500.4691
-  87-  1s   -500.4687
-  88-  1s   -500.4689
-  89-  1s   -500.4687
-  90-  1s   -500.4684
-  91-  1s   -500.4685
-  92-  1s   -500.4688
-  93-  1s   -500.4685
-  94-  1s   -500.4694
-  95-  1s   -500.4685
-  96-  1s   -500.4688
-  97-  1s   -500.6475
-  98-  1s   -500.6473
-  99-  1s   -500.6476
- 100-  1s   -500.6473
- 101-  1s   -500.6476
- 102-  1s   -500.6473
- 103-  1s   -500.6474
- 104-  1s   -500.6473
- 105-  1s   -500.6475
- 106-  1s   -500.6474
- 107-  1s   -500.6474
- 108-  1s   -500.6473
- 109-  1s   -500.2156
- 110-  1s   -500.2151
- 111-  1s   -500.2157
- 112-  1s   -500.2152
- 113-  1s   -500.2156
- 114-  1s   -500.2154
- 115-  1s   -500.2144
- 116-  1s   -500.2155
- 117-  1s   -500.2150
- 118-  1s   -500.2154
- 119-  1s   -500.2151
- 120-  1s   -500.2154
+ average (electrostatic) potential at core
+  the test charge radii are     1.0314  0.7215
+  (the norm of the test charge is              1.0000)
+       1 -55.5341       2 -55.5342       3 -55.5341       4 -55.5342       5 -55.5341
+       6 -55.5342       7 -55.5341       8 -55.5341       9 -55.5341      10 -55.5341
+      11 -55.5341      12 -55.5341      13 -55.5978      14 -55.5978      15 -55.5978
+      16 -55.5978      17 -55.5978      18 -55.5977      19 -55.5978      20 -55.5978
+      21 -55.5978      22 -55.5978      23 -55.5978      24 -55.5978      25 -55.5341
+      26 -55.5341      27 -55.5341      28 -55.5341      29 -55.5341      30 -55.5341
+      31 -55.5342      32 -55.5341      33 -55.5342      34 -55.5341      35 -55.5341
+      36 -55.5341      37 -55.5978      38 -55.5978      39 -55.5978      40 -55.5978
+      41 -55.5978      42 -55.5978      43 -55.5977      44 -55.5978      45 -55.5978
+      46 -55.5978      47 -55.5978      48 -55.5978      49 -62.1662      50 -62.1659
+      51 -62.1665      52 -62.1659      53 -62.1662      54 -62.1659      55 -62.1661
+      56 -62.1658      57 -62.1660      58 -62.1664      59 -62.1658      60 -62.1660
+      61 -62.2837      62 -62.2838      63 -62.2837      64 -62.2838      65 -62.2837
+      66 -62.2838      67 -62.2837      68 -62.2838      69 -62.2836      70 -62.2838
+      71 -62.2836      72 -62.2838      73 -61.8364      74 -61.8357      75 -61.8363
+      76 -61.8361      77 -61.8363      78 -61.8360      79 -61.8364      80 -61.8365
+      81 -61.8362      82 -61.8366      83 -61.8363      84 -61.8366      85 -62.1660
+      86 -62.1663      87 -62.1660      88 -62.1662      89 -62.1661      90 -62.1658
+      91 -62.1659      92 -62.1661      93 -62.1659      94 -62.1665      95 -62.1659
+      96 -62.1661      97 -62.2838      98 -62.2837      99 -62.2838     100 -62.2836
+     101 -62.2838     102 -62.2836     103 -62.2837     104 -62.2836     105 -62.2838
+     106 -62.2837     107 -62.2837     108 -62.2836     109 -61.8365     110 -61.8361
+     111 -61.8365     112 -61.8361     113 -61.8365     114 -61.8363     115 -61.8356
+     116 -61.8364     117 -61.8360     118 -61.8363     119 -61.8361     120 -61.8363
+ 
+ 
  
  E-fermi :   2.3336     XC(G=0):  -8.8567     alpha+bet :-12.5468
 
- Fermi energy:         2.3336183687
+ Fermi energy:         2.3336180331
 
  k-point     1 :       0.0000    0.0000    0.0000
   band No.  band energies     occupation 
@@ -5666,7 +5524,7 @@ Automatic generation of k-mesh.
     603      15.2982      0.00000
     604      15.3602      0.00000
     605      15.3972      0.00000
-    606      15.4786      0.00000
+    606      15.4785      0.00000
     607      15.5444      0.00000
     608      15.5902      0.00000
     609      15.6675      0.00000
@@ -7654,11 +7512,11 @@ Automatic generation of k-mesh.
 ------------------------ aborting loop because EDIFF is reached ----------------------------------------
 
 
-    FORLOC:  cpu time      0.0077: real time      0.0077
-    FORHF :  cpu time    571.0604: real time    570.9815
-    FORNL :  cpu time      1.0232: real time      1.0230
-    STRESS:  cpu time      3.1240: real time      3.1236
-    FORCOR:  cpu time      1.4389: real time      1.4388
+    FORLOC:  cpu time      0.0053: real time      0.0053
+    FORHF :  cpu time    571.6436: real time    571.5418
+    FORNL :  cpu time      1.0291: real time      1.0288
+    STRESS:  cpu time      3.1539: real time      3.1532
+    FORCOR:  cpu time      1.4659: real time      1.4657
     OFIELD:  cpu time      0.0023: real time      0.0023
 
   FORCE on cell =-STRESS in cart. coord.  units (eV):
@@ -7671,11 +7529,11 @@ Automatic generation of k-mesh.
   Local   -5948.13566  5708.82680  4071.48931     0.00001  2864.00298    -0.00001
   n-local  5978.56153  5920.59653  5940.04278    -0.00000    -7.86985     0.00001
   augment  5513.21181  5536.38384  5544.25896    -0.00000     6.11310     0.00000
-  Kinetic 12432.25075 12636.92176 12638.15564    -0.00001    37.86886     0.00002
+  Kinetic 12432.25075 12636.92177 12638.15564    -0.00001    37.86886     0.00002
   Fock    -8452.40273 -8457.04530 -8452.53840    -0.00000     0.62569     0.00000
   -------------------------------------------------------------------------------------
   Total     -40.64933   -38.06448   -35.74911     0.00000     1.41535     0.00000
-  in kB     -51.32974   -48.06574   -45.14201     0.00000     1.78722     0.00000
+  in kB     -51.32974   -48.06573   -45.14200     0.00000     1.78722     0.00000
   external pressure =      -48.18 kB  Pullay stress =        0.00 kB
 
 
@@ -7695,251 +7553,251 @@ Automatic generation of k-mesh.
  FORCES acting on ions:
     Electron-Ion                     Ewald-Force                    Non-Local-Force
  -----------------------------------------------------------------------------------------------
-   0.761E-04 0.429E+02 -.834E+02   -.191E-13 -.424E+02 0.879E+02   -.847E-21 -.378E+00 -.421E+01
-   0.906E-04 0.429E+02 -.834E+02   0.204E-13 -.424E+02 0.879E+02   0.169E-20 -.378E+00 -.421E+01
-   0.119E-03 0.429E+02 -.834E+02   -.658E-10 -.424E+02 0.879E+02   0.635E-21 -.378E+00 -.421E+01
-   -.852E-04 0.429E+02 -.834E+02   -.658E-10 -.424E+02 0.879E+02   0.106E-20 -.378E+00 -.421E+01
-   -.201E-03 0.429E+02 -.834E+02   0.657E-10 -.424E+02 0.879E+02   0.424E-21 -.378E+00 -.421E+01
+   0.761E-04 0.429E+02 -.834E+02   -.191E-13 -.424E+02 0.879E+02   -.169E-20 -.378E+00 -.421E+01
+   0.906E-04 0.429E+02 -.834E+02   0.204E-13 -.424E+02 0.879E+02   -.424E-20 -.378E+00 -.421E+01
+   0.119E-03 0.429E+02 -.834E+02   -.658E-10 -.424E+02 0.879E+02   -.127E-20 -.378E+00 -.421E+01
+   -.853E-04 0.429E+02 -.834E+02   -.658E-10 -.424E+02 0.879E+02   -.132E-20 -.378E+00 -.421E+01
+   -.201E-03 0.429E+02 -.834E+02   0.657E-10 -.424E+02 0.879E+02   0.847E-21 -.378E+00 -.421E+01
    -.124E-04 0.429E+02 -.834E+02   0.657E-10 -.424E+02 0.879E+02   0.847E-21 -.378E+00 -.421E+01
-   0.203E-03 -.429E+02 0.834E+02   0.661E-10 0.424E+02 -.879E+02   -.212E-20 0.378E+00 0.421E+01
-   -.297E-03 -.429E+02 0.834E+02   0.661E-10 0.424E+02 -.879E+02   0.913E-21 0.378E+00 0.421E+01
-   -.745E-05 -.429E+02 0.834E+02   0.195E-13 0.424E+02 -.879E+02   0.127E-20 0.378E+00 0.421E+01
-   0.173E-03 -.429E+02 0.834E+02   0.480E-13 0.424E+02 -.879E+02   0.212E-21 0.378E+00 0.421E+01
-   -.209E-03 -.429E+02 0.834E+02   -.660E-10 0.424E+02 -.879E+02   0.424E-21 0.378E+00 0.421E+01
-   0.120E-03 -.429E+02 0.834E+02   -.660E-10 0.424E+02 -.879E+02   -.106E-20 0.378E+00 0.421E+01
-   0.181E-03 -.464E+02 0.295E+02   0.657E-10 0.442E+02 -.312E+02   0.169E-20 0.189E+01 0.160E+01
-   -.432E-03 -.464E+02 0.295E+02   0.656E-10 0.442E+02 -.312E+02   0.582E-21 0.189E+01 0.160E+01
+   0.203E-03 -.429E+02 0.834E+02   0.661E-10 0.424E+02 -.879E+02   -.847E-21 0.378E+00 0.421E+01
+   -.297E-03 -.429E+02 0.834E+02   0.661E-10 0.424E+02 -.879E+02   -.357E-21 0.378E+00 0.421E+01
+   -.744E-05 -.429E+02 0.834E+02   0.195E-13 0.424E+02 -.879E+02   -.148E-20 0.378E+00 0.421E+01
+   0.173E-03 -.429E+02 0.834E+02   0.480E-13 0.424E+02 -.879E+02   -.953E-21 0.378E+00 0.421E+01
+   -.209E-03 -.429E+02 0.834E+02   -.660E-10 0.424E+02 -.879E+02   0.254E-20 0.378E+00 0.421E+01
+   0.121E-03 -.429E+02 0.834E+02   -.660E-10 0.424E+02 -.879E+02   0.392E-20 0.378E+00 0.421E+01
+   0.181E-03 -.464E+02 0.295E+02   0.657E-10 0.442E+02 -.312E+02   0.000E+00 0.189E+01 0.160E+01
+   -.432E-03 -.464E+02 0.295E+02   0.656E-10 0.442E+02 -.312E+02   -.169E-20 0.189E+01 0.160E+01
    0.116E-03 -.464E+02 0.295E+02   -.533E-14 0.442E+02 -.312E+02   0.582E-21 0.189E+01 0.160E+01
-   0.391E-03 -.464E+02 0.295E+02   0.409E-13 0.442E+02 -.312E+02   -.688E-21 0.189E+01 0.160E+01
-   -.290E-03 -.464E+02 0.295E+02   -.657E-10 0.442E+02 -.312E+02   -.635E-21 0.189E+01 0.160E+01
-   0.547E-04 -.464E+02 0.295E+02   -.656E-10 0.442E+02 -.312E+02   -.635E-21 0.189E+01 0.160E+01
+   0.391E-03 -.464E+02 0.295E+02   0.409E-13 0.442E+02 -.312E+02   0.265E-21 0.189E+01 0.160E+01
+   -.290E-03 -.464E+02 0.295E+02   -.657E-10 0.442E+02 -.312E+02   0.127E-20 0.189E+01 0.160E+01
+   0.547E-04 -.464E+02 0.295E+02   -.656E-10 0.442E+02 -.312E+02   0.318E-21 0.189E+01 0.160E+01
    0.316E-04 0.464E+02 -.295E+02   0.275E-13 -.442E+02 0.312E+02   0.847E-21 -.189E+01 -.160E+01
-   0.910E-04 0.464E+02 -.295E+02   0.533E-13 -.442E+02 0.312E+02   -.635E-21 -.189E+01 -.160E+01
-   -.185E-03 0.464E+02 -.295E+02   -.657E-10 -.442E+02 0.312E+02   0.169E-20 -.189E+01 -.160E+01
-   -.109E-03 0.464E+02 -.295E+02   -.657E-10 -.442E+02 0.312E+02   0.169E-20 -.189E+01 -.160E+01
-   0.161E-03 0.464E+02 -.295E+02   0.655E-10 -.442E+02 0.312E+02   -.212E-21 -.189E+01 -.160E+01
-   0.927E-05 0.464E+02 -.295E+02   0.656E-10 -.442E+02 0.312E+02   -.424E-21 -.189E+01 -.160E+01
-   -.159E-03 0.429E+02 -.834E+02   0.658E-10 -.424E+02 0.879E+02   0.212E-21 -.378E+00 -.421E+01
-   0.141E-03 0.429E+02 -.834E+02   0.658E-10 -.424E+02 0.879E+02   -.847E-21 -.378E+00 -.421E+01
-   -.344E-04 0.429E+02 -.834E+02   -.480E-13 -.424E+02 0.879E+02   0.254E-20 -.378E+00 -.421E+01
-   0.879E-04 0.429E+02 -.834E+02   -.114E-12 -.424E+02 0.879E+02   0.148E-20 -.378E+00 -.421E+01
-   0.195E-03 0.429E+02 -.834E+02   -.659E-10 -.424E+02 0.879E+02   0.847E-21 -.378E+00 -.421E+01
-   -.231E-03 0.429E+02 -.834E+02   -.658E-10 -.424E+02 0.879E+02   0.127E-20 -.378E+00 -.421E+01
-   0.158E-04 -.429E+02 0.834E+02   0.462E-13 0.424E+02 -.879E+02   0.169E-20 0.378E+00 0.421E+01
-   0.167E-03 -.429E+02 0.834E+02   0.320E-13 0.424E+02 -.879E+02   0.424E-21 0.378E+00 0.421E+01
-   -.264E-04 -.429E+02 0.834E+02   -.660E-10 0.424E+02 -.879E+02   -.847E-21 0.378E+00 0.421E+01
-   -.795E-04 -.429E+02 0.834E+02   -.660E-10 0.424E+02 -.879E+02   0.794E-21 0.378E+00 0.421E+01
-   0.306E-04 -.429E+02 0.834E+02   0.660E-10 0.424E+02 -.879E+02   0.847E-21 0.378E+00 0.421E+01
-   -.849E-04 -.429E+02 0.834E+02   0.660E-10 0.424E+02 -.879E+02   -.424E-21 0.378E+00 0.421E+01
-   0.423E-04 -.464E+02 0.295E+02   0.355E-13 0.442E+02 -.312E+02   0.148E-20 0.189E+01 0.160E+01
+   0.910E-04 0.464E+02 -.295E+02   0.533E-13 -.442E+02 0.312E+02   -.106E-20 -.189E+01 -.160E+01
+   -.185E-03 0.464E+02 -.295E+02   -.657E-10 -.442E+02 0.312E+02   -.847E-21 -.189E+01 -.160E+01
+   -.109E-03 0.464E+02 -.295E+02   -.657E-10 -.442E+02 0.312E+02   -.847E-21 -.189E+01 -.160E+01
+   0.161E-03 0.464E+02 -.295E+02   0.655E-10 -.442E+02 0.312E+02   0.106E-20 -.189E+01 -.160E+01
+   0.928E-05 0.464E+02 -.295E+02   0.656E-10 -.442E+02 0.312E+02   0.424E-21 -.189E+01 -.160E+01
+   -.159E-03 0.429E+02 -.834E+02   0.658E-10 -.424E+02 0.879E+02   0.000E+00 -.378E+00 -.421E+01
+   0.141E-03 0.429E+02 -.834E+02   0.658E-10 -.424E+02 0.879E+02   0.000E+00 -.378E+00 -.421E+01
+   -.344E-04 0.429E+02 -.834E+02   -.480E-13 -.424E+02 0.879E+02   -.635E-21 -.378E+00 -.421E+01
+   0.879E-04 0.429E+02 -.834E+02   -.114E-12 -.424E+02 0.879E+02   -.212E-21 -.378E+00 -.421E+01
+   0.195E-03 0.429E+02 -.834E+02   -.659E-10 -.424E+02 0.879E+02   0.296E-20 -.378E+00 -.421E+01
+   -.231E-03 0.429E+02 -.834E+02   -.658E-10 -.424E+02 0.879E+02   0.212E-20 -.378E+00 -.421E+01
+   0.158E-04 -.429E+02 0.834E+02   0.462E-13 0.424E+02 -.879E+02   -.254E-20 0.378E+00 0.421E+01
+   0.167E-03 -.429E+02 0.834E+02   0.320E-13 0.424E+02 -.879E+02   -.296E-20 0.378E+00 0.421E+01
+   -.264E-04 -.429E+02 0.834E+02   -.660E-10 0.424E+02 -.879E+02   -.127E-20 0.378E+00 0.421E+01
+   -.795E-04 -.429E+02 0.834E+02   -.660E-10 0.424E+02 -.879E+02   -.529E-21 0.378E+00 0.421E+01
+   0.307E-04 -.429E+02 0.834E+02   0.660E-10 0.424E+02 -.879E+02   0.000E+00 0.378E+00 0.421E+01
+   -.849E-04 -.429E+02 0.834E+02   0.660E-10 0.424E+02 -.879E+02   0.000E+00 0.378E+00 0.421E+01
+   0.423E-04 -.464E+02 0.295E+02   0.355E-13 0.442E+02 -.312E+02   0.847E-21 0.189E+01 0.160E+01
    0.747E-04 -.464E+02 0.295E+02   0.711E-14 0.442E+02 -.312E+02   0.169E-20 0.189E+01 0.160E+01
-   -.373E-04 -.464E+02 0.295E+02   -.655E-10 0.442E+02 -.312E+02   0.847E-21 0.189E+01 0.160E+01
-   -.267E-03 -.464E+02 0.295E+02   -.656E-10 0.442E+02 -.312E+02   0.212E-20 0.189E+01 0.160E+01
-   -.242E-05 -.464E+02 0.295E+02   0.656E-10 0.442E+02 -.312E+02   -.169E-20 0.189E+01 0.160E+01
-   0.191E-03 -.464E+02 0.295E+02   0.656E-10 0.442E+02 -.312E+02   0.847E-21 0.189E+01 0.160E+01
-   0.115E-03 0.464E+02 -.295E+02   0.657E-10 -.442E+02 0.312E+02   0.196E-20 -.189E+01 -.160E+01
-   0.789E-04 0.464E+02 -.295E+02   0.656E-10 -.442E+02 0.312E+02   0.212E-20 -.189E+01 -.160E+01
-   -.949E-04 0.464E+02 -.295E+02   -.103E-12 -.442E+02 0.312E+02   -.127E-20 -.189E+01 -.160E+01
-   0.397E-03 0.464E+02 -.295E+02   -.213E-13 -.442E+02 0.312E+02   -.127E-20 -.189E+01 -.160E+01
-   -.169E-04 0.464E+02 -.295E+02   -.657E-10 -.442E+02 0.312E+02   -.847E-21 -.189E+01 -.160E+01
-   -.455E-03 0.464E+02 -.295E+02   -.657E-10 -.442E+02 0.312E+02   -.741E-21 -.189E+01 -.160E+01
-   0.502E-04 -.177E+02 0.146E+02   0.388E-10 0.250E+02 -.183E+02   0.794E-22 -.631E+01 0.324E+01
-   0.201E-04 -.177E+02 0.146E+02   0.388E-10 0.250E+02 -.183E+02   0.212E-21 -.631E+01 0.324E+01
-   0.323E-04 -.177E+02 0.146E+02   -.480E-13 0.250E+02 -.183E+02   -.106E-21 -.631E+01 0.324E+01
-   0.233E-04 -.177E+02 0.146E+02   0.320E-13 0.250E+02 -.183E+02   -.106E-21 -.631E+01 0.324E+01
+   -.373E-04 -.464E+02 0.295E+02   -.655E-10 0.442E+02 -.312E+02   -.847E-21 0.189E+01 0.160E+01
+   -.267E-03 -.464E+02 0.295E+02   -.656E-10 0.442E+02 -.312E+02   -.254E-20 0.189E+01 0.160E+01
+   -.241E-05 -.464E+02 0.295E+02   0.656E-10 0.442E+02 -.312E+02   0.000E+00 0.189E+01 0.160E+01
+   0.191E-03 -.464E+02 0.295E+02   0.656E-10 0.442E+02 -.312E+02   0.169E-20 0.189E+01 0.160E+01
+   0.115E-03 0.464E+02 -.295E+02   0.657E-10 -.442E+02 0.312E+02   -.177E-20 -.189E+01 -.160E+01
+   0.789E-04 0.464E+02 -.295E+02   0.656E-10 -.442E+02 0.312E+02   -.847E-21 -.189E+01 -.160E+01
+   -.949E-04 0.464E+02 -.295E+02   -.103E-12 -.442E+02 0.312E+02   0.148E-20 -.189E+01 -.160E+01
+   0.397E-03 0.464E+02 -.295E+02   -.213E-13 -.442E+02 0.312E+02   -.212E-21 -.189E+01 -.160E+01
+   -.169E-04 0.464E+02 -.295E+02   -.657E-10 -.442E+02 0.312E+02   0.000E+00 -.189E+01 -.160E+01
+   -.455E-03 0.464E+02 -.295E+02   -.657E-10 -.442E+02 0.312E+02   -.318E-21 -.189E+01 -.160E+01
+   0.502E-04 -.177E+02 0.146E+02   0.388E-10 0.250E+02 -.183E+02   -.265E-22 -.631E+01 0.324E+01
+   0.201E-04 -.177E+02 0.146E+02   0.388E-10 0.250E+02 -.183E+02   -.212E-21 -.631E+01 0.324E+01
+   0.323E-04 -.177E+02 0.146E+02   -.480E-13 0.250E+02 -.183E+02   -.109E-21 -.631E+01 0.324E+01
+   0.233E-04 -.177E+02 0.146E+02   0.320E-13 0.250E+02 -.183E+02   0.159E-21 -.631E+01 0.324E+01
    -.895E-04 -.177E+02 0.146E+02   -.388E-10 0.250E+02 -.183E+02   0.106E-21 -.631E+01 0.324E+01
    -.503E-04 -.177E+02 0.146E+02   -.388E-10 0.250E+02 -.183E+02   0.695E-22 -.631E+01 0.324E+01
    0.137E-04 0.177E+02 -.146E+02   -.697E-13 -.250E+02 0.183E+02   0.000E+00 0.631E+01 -.324E+01
-   0.163E-04 0.177E+02 -.146E+02   -.857E-13 -.250E+02 0.183E+02   -.159E-21 0.631E+01 -.324E+01
-   0.127E-04 0.177E+02 -.146E+02   -.388E-10 -.250E+02 0.183E+02   0.159E-21 0.631E+01 -.324E+01
-   -.550E-04 0.177E+02 -.146E+02   -.389E-10 -.250E+02 0.183E+02   -.662E-22 0.631E+01 -.324E+01
-   -.162E-04 0.177E+02 -.146E+02   0.387E-10 -.250E+02 0.183E+02   0.212E-21 0.631E+01 -.324E+01
-   0.328E-04 0.177E+02 -.146E+02   0.387E-10 -.250E+02 0.183E+02   0.794E-22 0.631E+01 -.324E+01
-   0.764E-04 0.660E+02 0.376E+02   0.293E-10 -.640E+02 -.329E+02   -.265E-22 -.173E+01 -.403E+01
-   -.848E-04 0.660E+02 0.376E+02   0.293E-10 -.640E+02 -.329E+02   0.629E-22 -.173E+01 -.403E+01
-   -.566E-04 0.660E+02 0.376E+02   0.295E-13 -.640E+02 -.329E+02   -.265E-22 -.173E+01 -.403E+01
+   0.163E-04 0.177E+02 -.146E+02   -.857E-13 -.250E+02 0.183E+02   -.529E-22 0.631E+01 -.324E+01
+   0.127E-04 0.177E+02 -.146E+02   -.388E-10 -.250E+02 0.183E+02   0.000E+00 0.631E+01 -.324E+01
+   -.550E-04 0.177E+02 -.146E+02   -.389E-10 -.250E+02 0.183E+02   -.397E-22 0.631E+01 -.324E+01
+   -.162E-04 0.177E+02 -.146E+02   0.387E-10 -.250E+02 0.183E+02   -.106E-21 0.631E+01 -.324E+01
+   0.328E-04 0.177E+02 -.146E+02   0.387E-10 -.250E+02 0.183E+02   0.165E-22 0.631E+01 -.324E+01
+   0.764E-04 0.660E+02 0.376E+02   0.293E-10 -.640E+02 -.329E+02   -.529E-22 -.173E+01 -.403E+01
+   -.848E-04 0.660E+02 0.376E+02   0.293E-10 -.640E+02 -.329E+02   -.142E-21 -.173E+01 -.403E+01
+   -.566E-04 0.660E+02 0.376E+02   0.295E-13 -.640E+02 -.329E+02   0.529E-22 -.173E+01 -.403E+01
    0.315E-04 0.660E+02 0.376E+02   0.295E-13 -.640E+02 -.329E+02   0.106E-21 -.173E+01 -.403E+01
-   -.273E-04 0.660E+02 0.376E+02   -.292E-10 -.640E+02 -.329E+02   -.364E-22 -.173E+01 -.403E+01
-   0.358E-04 0.660E+02 0.376E+02   -.292E-10 -.640E+02 -.329E+02   0.926E-22 -.173E+01 -.403E+01
-   0.509E-04 -.660E+02 -.376E+02   -.577E-14 0.640E+02 0.329E+02   -.265E-22 0.173E+01 0.403E+01
-   0.785E-04 -.660E+02 -.376E+02   0.666E-14 0.640E+02 0.329E+02   -.265E-22 0.173E+01 0.403E+01
-   0.419E-04 -.660E+02 -.376E+02   -.292E-10 0.640E+02 0.329E+02   0.265E-22 0.173E+01 0.403E+01
-   -.702E-04 -.660E+02 -.376E+02   -.292E-10 0.640E+02 0.329E+02   0.265E-22 0.173E+01 0.403E+01
-   -.103E-03 -.660E+02 -.376E+02   0.293E-10 0.640E+02 0.329E+02   -.529E-22 0.173E+01 0.403E+01
-   -.266E-05 -.660E+02 -.376E+02   0.293E-10 0.640E+02 0.329E+02   -.106E-21 0.173E+01 0.403E+01
-   0.476E-04 0.121E+03 0.632E+02   0.320E-13 -.134E+03 -.597E+02   -.159E-21 0.109E+02 -.300E+01
-   0.761E-05 0.121E+03 0.632E+02   -.444E-14 -.134E+03 -.597E+02   0.529E-22 0.109E+02 -.300E+01
+   -.273E-04 0.660E+02 0.376E+02   -.292E-10 -.640E+02 -.329E+02   -.106E-21 -.173E+01 -.403E+01
+   0.358E-04 0.660E+02 0.376E+02   -.292E-10 -.640E+02 -.329E+02   -.910E-23 -.173E+01 -.403E+01
+   0.509E-04 -.660E+02 -.376E+02   -.577E-14 0.640E+02 0.329E+02   -.529E-22 0.173E+01 0.403E+01
+   0.785E-04 -.660E+02 -.376E+02   0.666E-14 0.640E+02 0.329E+02   0.397E-22 0.173E+01 0.403E+01
+   0.419E-04 -.660E+02 -.376E+02   -.292E-10 0.640E+02 0.329E+02   0.106E-21 0.173E+01 0.403E+01
+   -.702E-04 -.660E+02 -.376E+02   -.292E-10 0.640E+02 0.329E+02   0.212E-21 0.173E+01 0.403E+01
+   -.103E-03 -.660E+02 -.376E+02   0.293E-10 0.640E+02 0.329E+02   -.106E-21 0.173E+01 0.403E+01
+   -.265E-05 -.660E+02 -.376E+02   0.293E-10 0.640E+02 0.329E+02   -.265E-21 0.173E+01 0.403E+01
+   0.476E-04 0.121E+03 0.632E+02   0.320E-13 -.134E+03 -.597E+02   0.424E-21 0.109E+02 -.300E+01
+   0.760E-05 0.121E+03 0.632E+02   -.444E-14 -.134E+03 -.597E+02   -.318E-21 0.109E+02 -.300E+01
    -.602E-04 0.121E+03 0.632E+02   -.330E-10 -.134E+03 -.597E+02   -.185E-21 0.109E+02 -.300E+01
-   0.263E-04 0.121E+03 0.632E+02   -.330E-10 -.134E+03 -.597E+02   0.265E-21 0.109E+02 -.300E+01
-   0.863E-05 0.121E+03 0.632E+02   0.330E-10 -.134E+03 -.597E+02   0.371E-21 0.109E+02 -.300E+01
-   0.225E-05 0.121E+03 0.632E+02   0.330E-10 -.134E+03 -.597E+02   0.139E-21 0.109E+02 -.300E+01
-   0.294E-04 -.121E+03 -.632E+02   0.328E-10 0.134E+03 0.597E+02   0.291E-21 -.109E+02 0.300E+01
-   0.406E-04 -.121E+03 -.632E+02   0.328E-10 0.134E+03 0.597E+02   -.265E-21 -.109E+02 0.300E+01
-   0.189E-04 -.121E+03 -.632E+02   0.606E-13 0.134E+03 0.597E+02   0.529E-22 -.109E+02 0.300E+01
-   -.158E-04 -.121E+03 -.632E+02   0.608E-13 0.134E+03 0.597E+02   0.212E-21 -.109E+02 0.300E+01
-   -.277E-04 -.121E+03 -.632E+02   -.327E-10 0.134E+03 0.597E+02   0.212E-21 -.109E+02 0.300E+01
-   -.191E-04 -.121E+03 -.632E+02   -.327E-10 0.134E+03 0.597E+02   -.212E-21 -.109E+02 0.300E+01
-   0.564E-04 -.177E+02 0.146E+02   -.295E-13 0.250E+02 -.183E+02   0.000E+00 -.631E+01 0.324E+01
-   -.345E-04 -.177E+02 0.146E+02   -.666E-13 0.250E+02 -.183E+02   -.106E-21 -.631E+01 0.324E+01
-   -.252E-05 -.177E+02 0.146E+02   -.388E-10 0.250E+02 -.183E+02   -.106E-21 -.631E+01 0.324E+01
-   -.791E-05 -.177E+02 0.146E+02   -.389E-10 0.250E+02 -.183E+02   0.185E-21 -.631E+01 0.324E+01
-   -.618E-04 -.177E+02 0.146E+02   0.388E-10 0.250E+02 -.183E+02   0.000E+00 -.631E+01 0.324E+01
+   0.263E-04 0.121E+03 0.632E+02   -.330E-10 -.134E+03 -.597E+02   -.371E-21 0.109E+02 -.300E+01
+   0.864E-05 0.121E+03 0.632E+02   0.330E-10 -.134E+03 -.597E+02   -.397E-21 0.109E+02 -.300E+01
+   0.226E-05 0.121E+03 0.632E+02   0.330E-10 -.134E+03 -.597E+02   -.794E-22 0.109E+02 -.300E+01
+   0.294E-04 -.121E+03 -.632E+02   0.328E-10 0.134E+03 0.597E+02   0.794E-22 -.109E+02 0.300E+01
+   0.406E-04 -.121E+03 -.632E+02   0.328E-10 0.134E+03 0.597E+02   0.212E-21 -.109E+02 0.300E+01
+   0.189E-04 -.121E+03 -.632E+02   0.606E-13 0.134E+03 0.597E+02   -.344E-21 -.109E+02 0.300E+01
+   -.158E-04 -.121E+03 -.632E+02   0.608E-13 0.134E+03 0.597E+02   0.000E+00 -.109E+02 0.300E+01
+   -.277E-04 -.121E+03 -.632E+02   -.327E-10 0.134E+03 0.597E+02   -.116E-21 -.109E+02 0.300E+01
+   -.191E-04 -.121E+03 -.632E+02   -.327E-10 0.134E+03 0.597E+02   0.106E-21 -.109E+02 0.300E+01
+   0.564E-04 -.177E+02 0.146E+02   -.295E-13 0.250E+02 -.183E+02   0.794E-22 -.631E+01 0.324E+01
+   -.345E-04 -.177E+02 0.146E+02   -.666E-13 0.250E+02 -.183E+02   -.212E-21 -.631E+01 0.324E+01
+   -.252E-05 -.177E+02 0.146E+02   -.388E-10 0.250E+02 -.183E+02   -.250E-21 -.631E+01 0.324E+01
+   -.791E-05 -.177E+02 0.146E+02   -.389E-10 0.250E+02 -.183E+02   0.132E-21 -.631E+01 0.324E+01
+   -.618E-04 -.177E+02 0.146E+02   0.388E-10 0.250E+02 -.183E+02   0.132E-22 -.631E+01 0.324E+01
    0.449E-04 -.177E+02 0.146E+02   0.388E-10 0.250E+02 -.183E+02   0.000E+00 -.631E+01 0.324E+01
-   0.182E-04 0.177E+02 -.146E+02   0.388E-10 -.250E+02 0.183E+02   0.794E-22 0.631E+01 -.324E+01
-   0.609E-04 0.177E+02 -.146E+02   0.387E-10 -.250E+02 0.183E+02   -.926E-22 0.631E+01 -.324E+01
-   0.280E-04 0.177E+02 -.146E+02   -.746E-13 -.250E+02 0.183E+02   0.000E+00 0.631E+01 -.324E+01
-   0.884E-05 0.177E+02 -.146E+02   -.462E-13 -.250E+02 0.183E+02   -.159E-21 0.631E+01 -.324E+01
-   -.443E-04 0.177E+02 -.146E+02   -.389E-10 -.250E+02 0.183E+02   0.529E-22 0.631E+01 -.324E+01
-   -.711E-04 0.177E+02 -.146E+02   -.388E-10 -.250E+02 0.183E+02   -.265E-22 0.631E+01 -.324E+01
-   0.151E-04 0.660E+02 0.376E+02   0.373E-13 -.640E+02 -.329E+02   -.106E-21 -.173E+01 -.403E+01
-   0.691E-04 0.660E+02 0.376E+02   0.515E-13 -.640E+02 -.329E+02   0.926E-22 -.173E+01 -.403E+01
-   -.499E-04 0.660E+02 0.376E+02   -.291E-10 -.640E+02 -.329E+02   -.106E-21 -.173E+01 -.403E+01
-   0.419E-04 0.660E+02 0.376E+02   -.292E-10 -.640E+02 -.329E+02   -.106E-21 -.173E+01 -.403E+01
+   0.181E-04 0.177E+02 -.146E+02   0.388E-10 -.250E+02 0.183E+02   -.265E-22 0.631E+01 -.324E+01
+   0.609E-04 0.177E+02 -.146E+02   0.387E-10 -.250E+02 0.183E+02   -.707E-22 0.631E+01 -.324E+01
+   0.280E-04 0.177E+02 -.146E+02   -.746E-13 -.250E+02 0.183E+02   0.106E-21 0.631E+01 -.324E+01
+   0.885E-05 0.177E+02 -.146E+02   -.462E-13 -.250E+02 0.183E+02   -.529E-22 0.631E+01 -.324E+01
+   -.443E-04 0.177E+02 -.146E+02   -.389E-10 -.250E+02 0.183E+02   -.794E-22 0.631E+01 -.324E+01
+   -.711E-04 0.177E+02 -.146E+02   -.388E-10 -.250E+02 0.183E+02   -.159E-21 0.631E+01 -.324E+01
+   0.151E-04 0.660E+02 0.376E+02   0.373E-13 -.640E+02 -.329E+02   0.000E+00 -.173E+01 -.403E+01
+   0.691E-04 0.660E+02 0.376E+02   0.515E-13 -.640E+02 -.329E+02   0.529E-22 -.173E+01 -.403E+01
+   -.499E-04 0.660E+02 0.376E+02   -.291E-10 -.640E+02 -.329E+02   0.000E+00 -.173E+01 -.403E+01
+   0.419E-04 0.660E+02 0.376E+02   -.292E-10 -.640E+02 -.329E+02   0.529E-22 -.173E+01 -.403E+01
    0.238E-04 0.660E+02 0.376E+02   0.293E-10 -.640E+02 -.329E+02   -.106E-21 -.173E+01 -.403E+01
-   -.973E-04 0.660E+02 0.376E+02   0.293E-10 -.640E+02 -.329E+02   -.132E-22 -.173E+01 -.403E+01
-   -.225E-04 -.660E+02 -.376E+02   0.293E-10 0.640E+02 0.329E+02   -.106E-21 0.173E+01 0.403E+01
-   -.251E-04 -.660E+02 -.376E+02   0.293E-10 0.640E+02 0.329E+02   -.212E-21 0.173E+01 0.403E+01
-   -.160E-04 -.660E+02 -.376E+02   0.391E-13 0.640E+02 0.329E+02   -.265E-22 0.173E+01 0.403E+01
-   0.668E-04 -.660E+02 -.376E+02   0.391E-13 0.640E+02 0.329E+02   -.529E-22 0.173E+01 0.403E+01
-   0.399E-04 -.660E+02 -.376E+02   -.292E-10 0.640E+02 0.329E+02   0.794E-22 0.173E+01 0.403E+01
-   -.403E-04 -.660E+02 -.376E+02   -.292E-10 0.640E+02 0.329E+02   0.132E-21 0.173E+01 0.403E+01
-   -.558E-05 0.121E+03 0.632E+02   0.330E-10 -.134E+03 -.597E+02   -.106E-21 0.109E+02 -.300E+01
-   0.378E-04 0.121E+03 0.632E+02   0.330E-10 -.134E+03 -.597E+02   0.318E-21 0.109E+02 -.300E+01
-   0.373E-04 0.121E+03 0.632E+02   -.142E-13 -.134E+03 -.597E+02   0.265E-21 0.109E+02 -.300E+01
-   -.442E-04 0.121E+03 0.632E+02   0.142E-13 -.134E+03 -.597E+02   -.291E-21 0.109E+02 -.300E+01
-   -.385E-04 0.121E+03 0.632E+02   -.330E-10 -.134E+03 -.597E+02   0.318E-21 0.109E+02 -.300E+01
+   -.973E-04 0.660E+02 0.376E+02   0.293E-10 -.640E+02 -.329E+02   -.662E-22 -.173E+01 -.403E+01
+   -.225E-04 -.660E+02 -.376E+02   0.293E-10 0.640E+02 0.329E+02   0.212E-21 0.173E+01 0.403E+01
+   -.251E-04 -.660E+02 -.376E+02   0.293E-10 0.640E+02 0.329E+02   -.159E-21 0.173E+01 0.403E+01
+   -.160E-04 -.660E+02 -.376E+02   0.391E-13 0.640E+02 0.329E+02   0.000E+00 0.173E+01 0.403E+01
+   0.668E-04 -.660E+02 -.376E+02   0.391E-13 0.640E+02 0.329E+02   0.106E-21 0.173E+01 0.403E+01
+   0.399E-04 -.660E+02 -.376E+02   -.292E-10 0.640E+02 0.329E+02   -.397E-22 0.173E+01 0.403E+01
+   -.403E-04 -.660E+02 -.376E+02   -.292E-10 0.640E+02 0.329E+02   -.185E-21 0.173E+01 0.403E+01
+   -.558E-05 0.121E+03 0.632E+02   0.330E-10 -.134E+03 -.597E+02   -.212E-21 0.109E+02 -.300E+01
+   0.378E-04 0.121E+03 0.632E+02   0.330E-10 -.134E+03 -.597E+02   -.529E-22 0.109E+02 -.300E+01
+   0.373E-04 0.121E+03 0.632E+02   -.142E-13 -.134E+03 -.597E+02   -.582E-21 0.109E+02 -.300E+01
+   -.442E-04 0.121E+03 0.632E+02   0.142E-13 -.134E+03 -.597E+02   -.794E-22 0.109E+02 -.300E+01
+   -.385E-04 0.121E+03 0.632E+02   -.330E-10 -.134E+03 -.597E+02   0.291E-21 0.109E+02 -.300E+01
    0.326E-04 0.121E+03 0.632E+02   -.330E-10 -.134E+03 -.597E+02   0.794E-22 0.109E+02 -.300E+01
-   0.256E-04 -.121E+03 -.632E+02   0.488E-13 0.134E+03 0.597E+02   0.000E+00 -.109E+02 0.300E+01
-   0.210E-04 -.121E+03 -.632E+02   0.639E-13 0.134E+03 0.597E+02   -.106E-21 -.109E+02 0.300E+01
-   -.237E-04 -.121E+03 -.632E+02   -.327E-10 0.134E+03 0.597E+02   0.212E-21 -.109E+02 0.300E+01
-   -.180E-04 -.121E+03 -.632E+02   -.327E-10 0.134E+03 0.597E+02   -.318E-21 -.109E+02 0.300E+01
-   -.287E-04 -.121E+03 -.632E+02   0.328E-10 0.134E+03 0.597E+02   0.529E-22 -.109E+02 0.300E+01
-   -.104E-04 -.121E+03 -.632E+02   0.328E-10 0.134E+03 0.597E+02   -.344E-21 -.109E+02 0.300E+01
+   0.256E-04 -.121E+03 -.632E+02   0.488E-13 0.134E+03 0.597E+02   0.159E-21 -.109E+02 0.300E+01
+   0.210E-04 -.121E+03 -.632E+02   0.639E-13 0.134E+03 0.597E+02   -.132E-21 -.109E+02 0.300E+01
+   -.237E-04 -.121E+03 -.632E+02   -.327E-10 0.134E+03 0.597E+02   0.000E+00 -.109E+02 0.300E+01
+   -.180E-04 -.121E+03 -.632E+02   -.327E-10 0.134E+03 0.597E+02   0.212E-21 -.109E+02 0.300E+01
+   -.287E-04 -.121E+03 -.632E+02   0.328E-10 0.134E+03 0.597E+02   -.291E-21 -.109E+02 0.300E+01
+   -.104E-04 -.121E+03 -.632E+02   0.328E-10 0.134E+03 0.597E+02   0.106E-21 -.109E+02 0.300E+01
  -----------------------------------------------------------------------------------------------
-   0.416E-04 0.227E-03 -.803E-04   -.438E-13 -.568E-13 -.279E-11   0.212E-19 0.675E-13 0.888E-15
+   0.417E-04 0.227E-03 -.803E-04   -.438E-13 -.568E-13 -.279E-11   -.101E-19 -.355E-14 0.666E-14
  
  
  POSITION                                       TOTAL-FORCE (eV/Angst)
  -----------------------------------------------------------------------------------
-      0.00000      7.65951     -1.76963        -0.000000      0.072165      0.004761
-      0.00000      6.27538     -7.41997         0.000000      0.072165      0.004761
+      0.00000      7.65951     -1.76963         0.000000      0.072165      0.004761
+      0.00000      6.27538     -7.41997        -0.000000      0.072165      0.004761
       3.04757      7.65951     -1.76963        -0.000000      0.072165      0.004761
       3.04757      6.27538     -7.41997        -0.000000      0.072165      0.004761
-      6.09513      7.65951     -1.76963        -0.000000      0.072165      0.004761
+      6.09513      7.65951     -1.76963         0.000000      0.072165      0.004761
       6.09513      6.27538     -7.41997        -0.000000      0.072165      0.004761
-      1.52378      9.37707     -3.88072         0.000000     -0.072165     -0.004761
-      1.52378      7.99294     -9.53107         0.000000     -0.072165     -0.004761
+      1.52378      9.37707     -3.88072        -0.000000     -0.072165     -0.004761
+      1.52378      7.99294     -9.53107        -0.000000     -0.072165     -0.004761
       4.57135      9.37707     -3.88072         0.000000     -0.072165     -0.004761
       4.57135      7.99294     -9.53107        -0.000000     -0.072165     -0.004761
       7.61892      9.37707     -3.88072        -0.000000     -0.072165     -0.004761
-      7.61892      7.99294     -9.53107        -0.000000     -0.072165     -0.004761
-      1.52378      6.15825     -4.49291         0.000000     -0.022727      0.009592
+      7.61892      7.99294     -9.53107         0.000000     -0.072165     -0.004761
+      1.52378      6.15825     -4.49291        -0.000000     -0.022727      0.009592
       1.52378      4.77412    -10.14326         0.000000     -0.022727      0.009592
-      4.57135      6.15825     -4.49291         0.000000     -0.022727      0.009592
-      4.57135      4.77412    -10.14326        -0.000000     -0.022727      0.009592
+      4.57135      6.15825     -4.49291        -0.000000     -0.022727      0.009592
+      4.57135      4.77412    -10.14326         0.000000     -0.022727      0.009592
       7.61892      6.15825     -4.49291         0.000000     -0.022727      0.009592
       7.61892      4.77412    -10.14326         0.000000     -0.022727      0.009592
-      0.00000     10.87833     -1.15744         0.000000      0.022727     -0.009592
-      0.00000      9.49420     -6.80779        -0.000000      0.022727     -0.009592
-      3.04757     10.87833     -1.15744         0.000000      0.022727     -0.009592
-      3.04757      9.49420     -6.80779         0.000000      0.022727     -0.009592
-      6.09513     10.87833     -1.15744        -0.000000      0.022727     -0.009592
+      0.00000     10.87833     -1.15744        -0.000000      0.022727     -0.009592
+      0.00000      9.49420     -6.80779         0.000000      0.022727     -0.009592
+      3.04757     10.87833     -1.15744        -0.000000      0.022727     -0.009592
+      3.04757      9.49420     -6.80779        -0.000000      0.022727     -0.009592
+      6.09513     10.87833     -1.15744         0.000000      0.022727     -0.009592
       6.09513      9.49420     -6.80779         0.000000      0.022727     -0.009592
-      1.52378      1.51927     -1.76963        -0.000000      0.072165      0.004761
+      1.52378      1.51927     -1.76963         0.000000      0.072165      0.004761
       1.52378      0.13514     -7.41997         0.000000      0.072165      0.004761
       4.57135      1.51927     -1.76963        -0.000000      0.072165      0.004761
       4.57135      0.13514     -7.41997         0.000000      0.072165      0.004761
       7.61892      1.51927     -1.76963         0.000000      0.072165      0.004761
       7.61892      0.13514     -7.41997         0.000000      0.072165      0.004761
-      0.00000      3.23684     -3.88072         0.000000     -0.072165     -0.004761
+      0.00000      3.23684     -3.88072        -0.000000     -0.072165     -0.004761
       0.00000      1.85271     -9.53107         0.000000     -0.072165     -0.004761
-      3.04757      3.23684     -3.88072         0.000000     -0.072165     -0.004761
-      3.04757      1.85271     -9.53107         0.000000     -0.072165     -0.004761
+      3.04757      3.23684     -3.88072        -0.000000     -0.072165     -0.004761
+      3.04757      1.85271     -9.53107        -0.000000     -0.072165     -0.004761
       6.09513      3.23684     -3.88072         0.000000     -0.072165     -0.004761
-      6.09513      1.85271     -9.53107        -0.000000     -0.072165     -0.004761
-      0.00000      0.01801     -4.49291         0.000000     -0.022727      0.009592
+      6.09513      1.85271     -9.53107         0.000000     -0.072165     -0.004761
+      0.00000      0.01801     -4.49291        -0.000000     -0.022727      0.009592
       0.00000     -1.36612    -10.14326         0.000000     -0.022727      0.009592
       3.04757      0.01801     -4.49291         0.000000     -0.022727      0.009592
       3.04757     -1.36612    -10.14326        -0.000000     -0.022727      0.009592
       6.09513      0.01801     -4.49291         0.000000     -0.022727      0.009592
-      6.09513     -1.36612    -10.14326         0.000000     -0.022727      0.009592
+      6.09513     -1.36612    -10.14326        -0.000000     -0.022727      0.009592
       1.52378      4.73810     -1.15744         0.000000      0.022727     -0.009592
-      1.52378      3.35396     -6.80779        -0.000000      0.022727     -0.009592
-      4.57135      4.73810     -1.15744        -0.000000      0.022727     -0.009592
-      4.57135      3.35396     -6.80779         0.000000      0.022727     -0.009592
+      1.52378      3.35396     -6.80779         0.000000      0.022727     -0.009592
+      4.57135      4.73810     -1.15744         0.000000      0.022727     -0.009592
+      4.57135      3.35396     -6.80779        -0.000000      0.022727     -0.009592
       7.61892      4.73810     -1.15744         0.000000      0.022727     -0.009592
       7.61892      3.35396     -6.80779        -0.000000      0.022727     -0.009592
-      1.52378     11.88364     -1.43776        -0.000000     -0.170353      0.114007
-      1.52378     10.49951     -7.08811         0.000000     -0.170353      0.114007
-      4.57135     11.88364     -1.43776         0.000000     -0.170353      0.114007
-      4.57135     10.49951     -7.08811        -0.000000     -0.170353      0.114007
-      7.61892     11.88364     -1.43776        -0.000000     -0.170353      0.114007
-      7.61892     10.49951     -7.08811        -0.000000     -0.170353      0.114007
-      0.00000      5.15294     -4.21259         0.000000      0.170353     -0.114007
-      0.00000      3.76881     -9.86294         0.000000      0.170353     -0.114007
-      3.04757      5.15294     -4.21259         0.000000      0.170353     -0.114007
-      3.04757      3.76881     -9.86294         0.000000      0.170353     -0.114007
-      6.09513      5.15294     -4.21259        -0.000000      0.170353     -0.114007
-      6.09513      3.76881     -9.86294        -0.000000      0.170353     -0.114007
+      1.52378     11.88364     -1.43776         0.000000     -0.170354      0.114007
+      1.52378     10.49951     -7.08811         0.000000     -0.170354      0.114007
+      4.57135     11.88364     -1.43776         0.000000     -0.170354      0.114007
+      4.57135     10.49951     -7.08811         0.000000     -0.170354      0.114007
+      7.61892     11.88364     -1.43776        -0.000000     -0.170354      0.114007
+      7.61892     10.49951     -7.08811         0.000000     -0.170354      0.114007
+      0.00000      5.15294     -4.21259        -0.000000      0.170354     -0.114007
+      0.00000      3.76881     -9.86294        -0.000000      0.170354     -0.114007
+      3.04757      5.15294     -4.21259        -0.000000      0.170354     -0.114007
+      3.04757      3.76881     -9.86294         0.000000      0.170354     -0.114007
+      6.09513      5.15294     -4.21259        -0.000000      0.170354     -0.114007
+      6.09513      3.76881     -9.86294        -0.000000      0.170354     -0.114007
       1.52378      7.48286     -3.16867         0.000000     -0.038178     -0.112575
       1.52378      6.09873     -8.81902         0.000000     -0.038178     -0.112575
       4.57135      7.48286     -3.16867        -0.000000     -0.038178     -0.112575
-      4.57135      6.09873     -8.81902         0.000000     -0.038178     -0.112575
+      4.57135      6.09873     -8.81902        -0.000000     -0.038178     -0.112575
       7.61892      7.48286     -3.16867        -0.000000     -0.038178     -0.112575
       7.61892      6.09873     -8.81902        -0.000000     -0.038178     -0.112575
-      0.00000      9.55372     -2.48168        -0.000000      0.038178      0.112575
+      0.00000      9.55372     -2.48168         0.000000      0.038178      0.112575
       0.00000      8.16958     -8.13203         0.000000      0.038178      0.112575
-      3.04757      9.55372     -2.48168        -0.000000      0.038178      0.112575
+      3.04757      9.55372     -2.48168         0.000000      0.038178      0.112575
       3.04757      8.16958     -8.13203        -0.000000      0.038178      0.112575
-      6.09513      9.55372     -2.48168         0.000000      0.038178      0.112575
+      6.09513      9.55372     -2.48168        -0.000000      0.038178      0.112575
       6.09513      8.16958     -8.13203         0.000000      0.038178      0.112575
       0.00000      8.98430     -5.03794        -0.000000      0.399402     -0.073629
-      0.00000      7.60017    -10.68829         0.000000      0.399402     -0.073629
-      3.04757      8.98430     -5.03794        -0.000000      0.399402     -0.073629
-      3.04757      7.60017    -10.68829        -0.000000      0.399402     -0.073629
+      0.00000      7.60017    -10.68829        -0.000000      0.399402     -0.073629
+      3.04757      8.98430     -5.03794         0.000000      0.399402     -0.073629
+      3.04757      7.60017    -10.68829         0.000000      0.399402     -0.073629
       6.09513      8.98430     -5.03794        -0.000000      0.399402     -0.073629
       6.09513      7.60017    -10.68829        -0.000000      0.399402     -0.073629
       1.52378      8.05228     -0.61240         0.000000     -0.399402      0.073629
       1.52378      6.66815     -6.26275         0.000000     -0.399402      0.073629
-      4.57135      8.05228     -0.61240         0.000000     -0.399402      0.073629
-      4.57135      6.66815     -6.26275        -0.000000     -0.399402      0.073629
+      4.57135      8.05228     -0.61240        -0.000000     -0.399402      0.073629
+      4.57135      6.66815     -6.26275         0.000000     -0.399402      0.073629
       7.61892      8.05228     -0.61240         0.000000     -0.399402      0.073629
       7.61892      6.66815     -6.26275         0.000000     -0.399402      0.073629
-      0.00000      5.74340     -1.43776         0.000000     -0.170353      0.114007
-      0.00000      4.35927     -7.08811        -0.000000     -0.170353      0.114007
-      3.04757      5.74340     -1.43776        -0.000000     -0.170353      0.114007
-      3.04757      4.35927     -7.08811        -0.000000     -0.170353      0.114007
-      6.09513      5.74340     -1.43776        -0.000000     -0.170353      0.114007
-      6.09513      4.35927     -7.08811         0.000000     -0.170353      0.114007
-      1.52378     -0.98730     -4.21259         0.000000      0.170353     -0.114007
-      1.52378     -2.37143     -9.86294         0.000000      0.170353     -0.114007
-      4.57135     -0.98730     -4.21259         0.000000      0.170353     -0.114007
-      4.57135     -2.37143     -9.86294         0.000000      0.170353     -0.114007
-      7.61892     -0.98730     -4.21259        -0.000000      0.170353     -0.114007
-      7.61892     -2.37143     -9.86294        -0.000000      0.170353     -0.114007
-      0.00000      1.34263     -3.16867        -0.000000     -0.038178     -0.112575
+      0.00000      5.74340     -1.43776        -0.000000     -0.170354      0.114007
+      0.00000      4.35927     -7.08811         0.000000     -0.170354      0.114007
+      3.04757      5.74340     -1.43776        -0.000000     -0.170354      0.114007
+      3.04757      4.35927     -7.08811         0.000000     -0.170354      0.114007
+      6.09513      5.74340     -1.43776        -0.000000     -0.170354      0.114007
+      6.09513      4.35927     -7.08811         0.000000     -0.170354      0.114007
+      1.52378     -0.98730     -4.21259        -0.000000      0.170354     -0.114007
+      1.52378     -2.37143     -9.86294        -0.000000      0.170354     -0.114007
+      4.57135     -0.98730     -4.21259        -0.000000      0.170354     -0.114007
+      4.57135     -2.37143     -9.86294        -0.000000      0.170354     -0.114007
+      7.61892     -0.98730     -4.21259         0.000000      0.170354     -0.114007
+      7.61892     -2.37143     -9.86294         0.000000      0.170354     -0.114007
+      0.00000      1.34263     -3.16867         0.000000     -0.038178     -0.112575
       0.00000     -0.04150     -8.81902         0.000000     -0.038178     -0.112575
       3.04757      1.34263     -3.16867        -0.000000     -0.038178     -0.112575
       3.04757     -0.04150     -8.81902         0.000000     -0.038178     -0.112575
       6.09513      1.34263     -3.16867         0.000000     -0.038178     -0.112575
-      6.09513     -0.04150     -8.81902        -0.000000     -0.038178     -0.112575
-      1.52378      3.41348     -2.48168        -0.000000      0.038178      0.112575
-      1.52378      2.02935     -8.13203        -0.000000      0.038178      0.112575
-      4.57135      3.41348     -2.48168        -0.000000      0.038178      0.112575
+      6.09513     -0.04150     -8.81902         0.000000     -0.038178     -0.112575
+      1.52378      3.41348     -2.48168         0.000000      0.038178      0.112575
+      1.52378      2.02935     -8.13203         0.000000      0.038178      0.112575
+      4.57135      3.41348     -2.48168         0.000000      0.038178      0.112575
       4.57135      2.02935     -8.13203        -0.000000      0.038178      0.112575
-      7.61892      3.41348     -2.48168        -0.000000      0.038178      0.112575
+      7.61892      3.41348     -2.48168         0.000000      0.038178      0.112575
       7.61892      2.02935     -8.13203        -0.000000      0.038178      0.112575
-      1.52378      2.84406     -5.03794        -0.000000      0.399402     -0.073629
-      1.52378      1.45993    -10.68829         0.000000      0.399402     -0.073629
+      1.52378      2.84406     -5.03794         0.000000      0.399402     -0.073629
+      1.52378      1.45993    -10.68829        -0.000000      0.399402     -0.073629
       4.57135      2.84406     -5.03794         0.000000      0.399402     -0.073629
       4.57135      1.45993    -10.68829         0.000000      0.399402     -0.073629
       7.61892      2.84406     -5.03794         0.000000      0.399402     -0.073629
       7.61892      1.45993    -10.68829         0.000000      0.399402     -0.073629
-      0.00000      1.91204     -0.61240         0.000000     -0.399402      0.073629
-      0.00000      0.52791     -6.26275        -0.000000     -0.399402      0.073629
-      3.04757      1.91204     -0.61240         0.000000     -0.399402      0.073629
+      0.00000      1.91204     -0.61240        -0.000000     -0.399402      0.073629
+      0.00000      0.52791     -6.26275         0.000000     -0.399402      0.073629
+      3.04757      1.91204     -0.61240        -0.000000     -0.399402      0.073629
       3.04757      0.52791     -6.26275         0.000000     -0.399402      0.073629
-      6.09513      1.91204     -0.61240        -0.000000     -0.399402      0.073629
+      6.09513      1.91204     -0.61240         0.000000     -0.399402      0.073629
       6.09513      0.52791     -6.26275         0.000000     -0.399402      0.073629
  -----------------------------------------------------------------------------------
     total drift:                                0.000042      0.000227     -0.000080
@@ -7960,14 +7818,14 @@ Automatic generation of k-mesh.
 --------------------------------------------------------------------------------------------------------
 
 
-    POTLOK:  cpu time      1.9613: real time      1.9722
+    POTLOK:  cpu time      1.9164: real time      1.9208
 
 
 --------------------------------------------------------------------------------------------------------
 
 
  writing wavefunctions
-     LOOP+:  cpu time  13710.9959: real time  13709.8834
+     LOOP+:  cpu time  13731.9253: real time  13729.8238
     4ORBIT:  cpu time      0.0000: real time      0.0000
 
  total amount of memory used by VASP MPI-rank0  7500360. kBytes
@@ -7987,14 +7845,14 @@ Automatic generation of k-mesh.
  General timing and accounting informations for this job:
  ========================================================
   
-                  Total CPU time used (sec):    13742.333
-                            User time (sec):    13732.113
-                          System time (sec):       10.220
-                         Elapsed time (sec):    13743.419
+                  Total CPU time used (sec):    13762.882
+                            User time (sec):    13750.512
+                          System time (sec):       12.370
+                         Elapsed time (sec):    13762.440
   
-                   Maximum memory used (kb):    13297536.
+                   Maximum memory used (kb):    13301056.
                    Average memory used (kb):          N/A
   
-                          Minor page faults:      2853497
-                          Major page faults:            5
-                 Voluntary context switches:       253688
+                          Minor page faults:      4941422
+                          Major page faults:            2
+                 Voluntary context switches:       252852
