@@ -14,3 +14,5 @@ WAVECAR
 XDATCAR
 run_vasp.sh
 slurm-*.out
+
+ga48o72/bandgap/
