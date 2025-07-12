@@ -1,0 +1,76 @@
+ running    4 mpi-ranks, on    1 nodes
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ OpenACC runtime initialized ...    4 GPUs detected
+ vasp.6.4.2 20Jul23 (build Nov 12 2023 22:16:35) complex                         
+ POSCAR found type information on POSCAR GaN O 
+ POSCAR found :  3 types and     120 ions
+ scaLAPACK will be used selectively (only on CPU)
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.122528922067E+05    0.12253E+05   -0.58814E+05  1330   0.708E+03
+DAV:   2    -0.311852307707E+05   -0.43438E+05   -0.42070E+05  1699   0.119E+03
+DAV:   3    -0.356010227444E+05   -0.44158E+04   -0.39752E+04  1803   0.346E+02
+DAV:   4    -0.360769333317E+05   -0.47591E+03   -0.40243E+03  2124   0.993E+01
+DAV:   5    -0.361216230433E+05   -0.44690E+02   -0.41497E+02  2452   0.291E+01BRMIX: very serious problems
+ the old and the new charge density differ
+ old charge density:  1054.49993 new 1054.99974
+BRMIX: very serious problems
+ the old and the new charge density differ
+ old charge density:  1054.49993 new 1054.99974
+BRMIX: very serious problems
+ the old and the new charge density differ
+BRMIX: very serious problems
+ the old and the new charge density differ
+ old charge density:  1054.49993 new 1054.99974
+ old charge density:  1054.49993 new 1054.99974
+    0.707E+02
+DAV:   6    -0.108315423283E+05    0.25290E+05   -0.16285E+04  1779   0.247E+02    0.418E+02
+DAV:   7    -0.259265721179E+04    0.82389E+04   -0.11243E+04  1866   0.217E+02    0.187E+02
+DAV:   8    -0.901646072227E+03    0.16910E+04   -0.60577E+03  1940   0.190E+02    0.111E+02
+DAV:   9    -0.728308586652E+03    0.17334E+03   -0.97459E+02  1620   0.897E+01    0.566E+01
+DAV:  10    -0.733827463451E+03   -0.55189E+01   -0.73017E+02  1876   0.629E+01    0.346E+01
+DAV:  11    -0.713268281623E+03    0.20559E+02   -0.12408E+02  1524   0.498E+01    0.193E+01
+DAV:  12    -0.714495556576E+03   -0.12273E+01   -0.92885E+01  1916   0.311E+01    0.129E+01
+DAV:  13    -0.713438216732E+03    0.10573E+01   -0.26091E+01  1588   0.167E+01    0.709E+00
+DAV:  14    -0.713481460927E+03   -0.43244E-01   -0.86935E+00  1932   0.798E+00    0.360E+00
+DAV:  15    -0.713447282823E+03    0.34178E-01   -0.21664E+00  1924   0.657E+00    0.144E+00
+DAV:  16    -0.713500085714E+03   -0.52803E-01   -0.57665E-01  1612   0.453E+00    0.769E-01
+DAV:  17    -0.713520131472E+03   -0.20046E-01   -0.24261E-01  1484   0.166E+00    0.504E-01
+DAV:  18    -0.713524854508E+03   -0.47230E-02   -0.71331E-02  1716   0.190E+00    0.235E-01
+DAV:  19    -0.713528253649E+03   -0.33991E-02   -0.43195E-02  1476   0.706E-01    0.132E-01
+DAV:  20    -0.713529170852E+03   -0.91720E-03   -0.13741E-02  1788   0.541E-01    0.939E-02
+DAV:  21    -0.713529653653E+03   -0.48280E-03   -0.65672E-03  1612   0.274E-01    0.649E-02
+DAV:  22    -0.713529705592E+03   -0.51938E-04   -0.15832E-03  1844   0.224E-01    0.368E-02
+DAV:  23    -0.713529773582E+03   -0.67990E-04   -0.10294E-03  2340   0.118E-01    0.238E-02
+DAV:  24    -0.713529862018E+03   -0.88436E-04   -0.10026E-03  1444   0.651E-02    0.193E-02
+DAV:  25    -0.713529863268E+03   -0.12501E-05   -0.56611E-05  1036   0.288E-02
+   1 F= -.71352986E+03 E0= -.71351576E+03  d E =-.282095E-01
+ writing wavefunctions
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP

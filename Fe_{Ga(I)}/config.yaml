@@ -26,7 +26,7 @@ tasks:
       POSCAR: str_opt_0/CONTCAR
 
   - pbe_-1:
-      run: False
+      run: True
       INCAR: INCAR_pbe_-1
       KPOINTS: KPOINTS
       POTCAR: POTCAR

@@ -9,17 +9,17 @@ tasks:
       INCAR: INCAR_str_opt_0
       KPOINTS: KPOINTS
       POTCAR: POTCAR
-      POSCAR: Fe_{Ga(I)}-N_{O(II)}.vasp
+      POSCAR: CONTCAR
 
   - str_opt_-1:
       run: False
       INCAR: INCAR_str_opt_-1
       KPOINTS: KPOINTS
       POTCAR: POTCAR
-      POSCAR: Fe_{Ga(I)}-N_{O(II)}2.vasp
+      POSCAR: Fe_{Ga(I)}-N_{O(II)}3.vasp
     
   - pbe_0:
-      run: False
+      run: True
       INCAR: INCAR_pbe_0
       KPOINTS: KPOINTS
       POTCAR: POTCAR
@@ -43,7 +43,7 @@ tasks:
       CHG: pbe_0/CHG
 
   - hse06_-1:
-      run: True
+      run: False
       INCAR: INCAR_hse06_-1
       KPOINTS: KPOINTS
       POTCAR: POTCAR

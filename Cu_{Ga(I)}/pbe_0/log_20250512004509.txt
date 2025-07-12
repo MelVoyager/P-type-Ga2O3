@@ -1,0 +1,80 @@
+ running    4 mpi-ranks, on    1 nodes
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ OpenACC runtime initialized ...    4 GPUs detected
+ vasp.6.4.2 20Jul23 (build Nov 12 2023 22:16:35) complex                         
+ POSCAR found type information on POSCAR GaO Cu
+ POSCAR found :  3 types and     120 ions
+ scaLAPACK will be used selectively (only on CPU)
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.124620182698E+05    0.12462E+05   -0.58417E+05 10576   0.706E+03
+DAV:   2    -0.309363833716E+05   -0.43398E+05   -0.42049E+05 13432   0.118E+03
+DAV:   3    -0.353117591965E+05   -0.43754E+04   -0.39186E+04 14424   0.343E+02
+DAV:   4    -0.357515988299E+05   -0.43984E+03   -0.38911E+03 16976   0.979E+01
+DAV:   5    -0.357947674968E+05   -0.43169E+02   -0.39624E+02 19736   0.283E+01    0.706E+02
+DAV:   6    -0.107661520371E+05    0.25029E+05   -0.16302E+04 14056   0.238E+02    0.419E+02
+DAV:   7    -0.270135733985E+04    0.80648E+04   -0.11514E+04 15144   0.221E+02    0.189E+02
+DAV:   8    -0.951742187071E+03    0.17496E+04   -0.60900E+03 15896   0.221E+02    0.131E+02
+DAV:   9    -0.793417748924E+03    0.15832E+03   -0.73003E+02 12800   0.102E+02    0.756E+01
+DAV:  10    -0.752975439646E+03    0.40442E+02   -0.10474E+03 14656   0.581E+01    0.426E+01
+DAV:  11    -0.728241022299E+03    0.24734E+02   -0.22022E+02 15456   0.511E+01    0.293E+01
+DAV:  12    -0.714671833340E+03    0.13569E+02   -0.68070E+01 15328   0.248E+01    0.191E+01
+DAV:  13    -0.712092387943E+03    0.25794E+01   -0.51459E+01 14048   0.333E+01    0.103E+01
+DAV:  14    -0.712214747773E+03   -0.12236E+00   -0.19043E+01 13904   0.128E+01    0.837E+00
+DAV:  15    -0.712057316042E+03    0.15743E+00   -0.90266E+00 13856   0.581E+00    0.671E+00
+DAV:  16    -0.711587348920E+03    0.46997E+00   -0.40125E+00 14664   0.685E+00    0.364E+00
+DAV:  17    -0.711591500277E+03   -0.41514E-02   -0.32089E+00 14352   0.556E+00    0.374E+00
+DAV:  18    -0.711539339116E+03    0.52161E-01   -0.17794E+00 13984   0.259E+00    0.290E+00
+DAV:  19    -0.711527432319E+03    0.11907E-01   -0.11547E+00 14944   0.161E+00    0.263E+00
+DAV:  20    -0.711509215780E+03    0.18217E-01   -0.89689E-01 14440   0.201E+00    0.208E+00
+DAV:  21    -0.711509641200E+03   -0.42542E-03   -0.76119E-01 13992   0.126E+00    0.232E+00
+DAV:  22    -0.711495938402E+03    0.13703E-01   -0.51366E-01 13880   0.127E+00    0.141E+00
+DAV:  23    -0.711490717876E+03    0.52205E-02   -0.32649E-01 12768   0.867E-01    0.148E+00
+DAV:  24    -0.711483376877E+03    0.73410E-02   -0.17063E-01 13360   0.642E-01    0.742E-01
+DAV:  25    -0.711484335558E+03   -0.95868E-03   -0.12953E-01 16704   0.436E-01    0.125E+00
+DAV:  26    -0.711479530751E+03    0.48048E-02   -0.73009E-02 15736   0.377E-01    0.284E-01
+DAV:  27    -0.711479617133E+03   -0.86382E-04   -0.45701E-02 14424   0.285E-01    0.907E-01
+DAV:  28    -0.711477702772E+03    0.19144E-02   -0.30081E-02 12472   0.211E-01    0.891E-02
+DAV:  29    -0.711477685855E+03    0.16916E-04   -0.17399E-02 12112   0.184E-01    0.649E-01
+DAV:  30    -0.711476907021E+03    0.77883E-03   -0.12585E-02 11072   0.107E-01    0.877E-02
+DAV:  31    -0.711476916625E+03   -0.96043E-05   -0.73653E-03  9672   0.952E-02    0.483E-01
+DAV:  32    -0.711476570538E+03    0.34609E-03   -0.53431E-03  8336   0.673E-02    0.117E-01
+DAV:  33    -0.711476563073E+03    0.74654E-05   -0.28114E-03  7648   0.632E-02    0.367E-01
+DAV:  34    -0.711476401352E+03    0.16172E-03   -0.20722E-03  7184   0.408E-02    0.140E-01
+DAV:  35    -0.711476414942E+03   -0.13590E-04   -0.10975E-03  7072   0.396E-02    0.297E-01
+DAV:  36    -0.711476328719E+03    0.86223E-04   -0.81788E-04  6704   0.256E-02    0.154E-01
+DAV:  37    -0.711476329059E+03   -0.33991E-06   -0.37224E-04  6600   0.237E-02    0.245E-01
+DAV:  38    -0.711476281303E+03    0.47757E-04   -0.30465E-04  6152   0.156E-02    0.158E-01
+DAV:  39    -0.711476275616E+03    0.56865E-05   -0.11275E-04  5984   0.152E-02    0.207E-01
+DAV:  40    -0.711476248029E+03    0.27587E-04   -0.10857E-04  5712   0.918E-03    0.154E-01
+DAV:  41    -0.711476239407E+03    0.86223E-05   -0.29089E-05  5664   0.964E-03
+   1 F= -.71147624E+03 E0= -.71145841E+03  d E =-.356599E-01
+ writing wavefunctions
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP

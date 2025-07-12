@@ -1,0 +1,67 @@
+ running    4 mpi-ranks, on    1 nodes
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ OpenACC runtime initialized ...    4 GPUs detected
+ vasp.6.4.2 20Jul23 (build Nov 12 2023 22:16:35) complex                         
+ POSCAR found type information on POSCAR GaO CuN 
+ POSCAR found :  4 types and     120 ions
+ scaLAPACK will be used selectively (only on CPU)
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.123863836182E+05    0.12386E+05   -0.58460E+05 10624   0.707E+03
+DAV:   2    -0.309930541919E+05   -0.43379E+05   -0.42028E+05 13520   0.119E+03
+DAV:   3    -0.354125259806E+05   -0.44195E+04   -0.39727E+04 14352   0.346E+02
+DAV:   4    -0.358998803550E+05   -0.48735E+03   -0.42223E+03 17176   0.998E+01
+DAV:   5    -0.359458104620E+05   -0.45930E+02   -0.41730E+02 19400   0.286E+01    0.711E+02
+DAV:   6    -0.108783765430E+05    0.25067E+05   -0.18262E+04 14000   0.246E+02    0.422E+02
+DAV:   7    -0.307253016082E+04    0.78058E+04   -0.10426E+04 15376   0.210E+02    0.209E+02
+DAV:   8    -0.104710211059E+04    0.20254E+04   -0.65210E+03 15672   0.215E+02    0.145E+02
+DAV:   9    -0.785620324695E+03    0.26148E+03   -0.95556E+02 13336   0.116E+02    0.756E+01
+DAV:  10    -0.739954147248E+03    0.45666E+02   -0.10637E+03 15288   0.661E+01    0.446E+01
+DAV:  11    -0.714319168554E+03    0.25635E+02   -0.23123E+02 15696   0.514E+01    0.252E+01
+DAV:  12    -0.706512116670E+03    0.78071E+01   -0.59728E+01 15168   0.270E+01    0.144E+01
+DAV:  13    -0.705970496161E+03    0.54162E+00   -0.24482E+01 13992   0.228E+01    0.927E+00
+DAV:  14    -0.705945750657E+03    0.24746E-01   -0.11401E+01 14872   0.220E+01    0.552E+00
+DAV:  15    -0.705637847857E+03    0.30790E+00   -0.27511E+00 13696   0.752E+00    0.316E+00
+DAV:  16    -0.705636768874E+03    0.10790E-02   -0.16753E+00 13232   0.346E+00    0.162E+00
+DAV:  17    -0.705617401859E+03    0.19367E-01   -0.42415E-01 14696   0.464E+00    0.810E-01
+DAV:  18    -0.705625084458E+03   -0.76826E-02   -0.19257E-01 13480   0.133E+00    0.556E-01
+DAV:  19    -0.705626080791E+03   -0.99633E-03   -0.53295E-02 14856   0.124E+00    0.347E-01
+DAV:  20    -0.705626654862E+03   -0.57407E-03   -0.26887E-02 14176   0.856E-01    0.193E-01
+DAV:  21    -0.705626950575E+03   -0.29571E-03   -0.11987E-02 14680   0.511E-01    0.121E-01
+DAV:  22    -0.705627254805E+03   -0.30423E-03   -0.64091E-03 13776   0.286E-01    0.916E-02
+DAV:  23    -0.705627507796E+03   -0.25299E-03   -0.40192E-03 12520   0.173E-01    0.670E-02
+DAV:  24    -0.705627456345E+03    0.51452E-04   -0.64907E-04 15232   0.183E-01    0.342E-02
+DAV:  25    -0.705627443399E+03    0.12945E-04   -0.24196E-04 17584   0.115E-01    0.166E-02
+DAV:  26    -0.705627505244E+03   -0.61845E-04   -0.69191E-04 13496   0.572E-02    0.132E-02
+DAV:  27    -0.705627516116E+03   -0.10872E-04   -0.13563E-04  8616   0.286E-02    0.118E-02
+DAV:  28    -0.705627513561E+03    0.25547E-05   -0.42968E-06  5912   0.302E-02
+   1 F= -.70562751E+03 E0= -.70562742E+03  d E =-.191999E-03
+ writing wavefunctions
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP

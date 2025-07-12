@@ -11,37 +11,141 @@ tasks:
       POTCAR: POTCAR
       POSCAR: POSCAR
 
-  - hse06_scf_0:
-      run: False
-      INCAR: INCAR_hse06_scf_0
-      KPOINTS: KPOINTS
-      POTCAR: POTCAR
-      POSCAR: str_opt_0/
-      
-  - hse06_scf_0_0.32:
-      run: True
-      INCAR: INCAR_hse06_scf_0_0.32
-      KPOINTS: KPOINTS
-      POTCAR: POTCAR
-      POSCAR: str_opt_0/CONTCAR
-
   - str_opt_-1:
       run: False
       INCAR: INCAR_str_opt_-1
       KPOINTS: KPOINTS
       POTCAR: POTCAR
       POSCAR: POSCAR
-
-  - hse06_scf_-1:
+    
+  - pbe_0:
       run: False
-      INCAR: INCAR_hse06_scf_-1
+      INCAR: INCAR_pbe_0
       KPOINTS: KPOINTS
       POTCAR: POTCAR
-      POSCAR: str_opt_-1/CONTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
 
-  - hse06_scf_-1_0.32:
-      run: True
-      INCAR: INCAR_hse06_scf_-1_0.32
+  - pbe_0_K1:
+      run: False
+      INCAR: INCAR_pbe_0
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+
+  - pbe_-1:
+      run: False
+      INCAR: INCAR_pbe_-1
       KPOINTS: KPOINTS
       POTCAR: POTCAR
-      POSCAR: str_opt_-1/CONTCAR
+      POSCAR: POSCAR_-1
+    
+  - hse06_0:
+      run: False
+      INCAR: INCAR_hse06_0
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_0_K1:
+      run: False
+      INCAR: INCAR_hse06_0
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_0_K1_prefock: 
+      run: False
+      INCAR: INCAR_hse06_0_prefock
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+  
+  - hse06_0_lts: 
+      run: False
+      INCAR: INCAR_lts
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_0_ENCUT: 
+      run: False
+      INCAR: INCAR_hse06_0_ENCUT
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_0_ispin: 
+      run: False
+      INCAR: INCAR_hse06_0_ispin
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_0_ispin_ENCUT: 
+      run: False
+      INCAR: INCAR_hse06_0_ispin_ENCUT
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_0_lts_ENCUT600: 
+      run: True
+      INCAR: INCAR_lts_ENCUT600
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_0_lts_ispin=1: 
+      run: False
+      INCAR: INCAR_lts_ispin=1
+      KPOINTS: KPOINTS_1
+      POTCAR: POTCAR
+    #   POSCAR: str_opt_0/CONTCAR
+      POSCAR: POSCAR_0
+      WAVECAR: pbe_0/WAVECAR
+      CHGCAR: pbe_0/CHGCAR
+      CHG: pbe_0/CHG
+
+  - hse06_-1:
+      run: False
+      INCAR: INCAR_hse06_-1
+      KPOINTS: KPOINTS
+      POTCAR: POTCAR
+      POSCAR: POSCAR_-1
+      WAVECAR: pbe_-1/WAVECAR
+      CHGCAR: pbe_-1/CHGCAR
+      CHG: pbe_-1/CHG

@@ -1,0 +1,97 @@
+ running    4 mpi-ranks, on    1 nodes
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ OpenACC runtime initialized ...    4 GPUs detected
+ vasp.6.4.2 20Jul23 (build Nov 12 2023 22:16:35) complex                         
+ POSCAR found type information on POSCAR GaO N Fe
+ POSCAR found :  4 types and     120 ions
+ scaLAPACK will be used selectively (only on CPU)
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ charge-density read from file: unknown                                 
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.226E+02 0.366E+01 0.633E-04 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.953899189086E+03   -0.95390E+03    0.00000E+00  5040   0.263E+02 0.000E+00
+ gam= 0.000 trial= 0.400  step= 0.388 mean= 0.400
+ gam= 0.295 g(H,U,f)=  0.513E+01 0.262E+01 0.323E-15 ort(H,U,f) =-0.240E+01 0.261E+01 0.113E-15
+CGA:   2    -0.958988726344E+03   -0.50895E+01   -0.50919E+01  5040   0.775E+01 0.209E+00
+ gam= 0.295 trial= 0.399  step= 0.726 mean= 0.399
+ gam= 0.377 g(H,U,f)=  0.171E+01 0.121E+01 0.155E-14 ort(H,U,f) =-0.111E+01 0.148E+01 0.787E-14
+CGA:   3    -0.961889493617E+03   -0.29008E+01   -0.28356E+01  5040   0.292E+01 0.370E+00
+ gam= 0.377 trial= 0.416  step= 0.351 mean= 0.416
+ gam= 0.399 g(H,U,f)=  0.719E+00 0.447E+00 0.815E-10 ort(H,U,f) =-0.469E+00 0.529E+00 0.879E-10
+CGA:   4    -0.962420619985E+03   -0.53113E+00   -0.53681E+00  5040   0.117E+01 0.592E-01
+ gam= 0.399 trial= 0.412  step= 0.610 mean= 0.412
+ gam= 0.328 g(H,U,f)=  0.308E+00 0.755E-01 0.169E-16 ort(H,U,f) =-0.230E+00 0.260E+00 0.787E-16
+CGA:   5    -0.962787314021E+03   -0.36669E+00   -0.36313E+00  5040   0.383E+00 0.298E-01
+ gam= 0.328 trial= 0.422  step= 0.485 mean= 0.422
+ gam= 0.446 g(H,U,f)=  0.143E+00 0.275E-01 0.130E-16 ort(H,U,f) =-0.607E-01 0.637E-01 0.357E-16
+CGA:   6    -0.962882698277E+03   -0.95384E-01   -0.95214E-01  5040   0.171E+00 0.309E-02
+ gam= 0.446 trial= 0.425  step= 0.457 mean= 0.425
+ gam= 0.236 g(H,U,f)=  0.348E-01 0.544E-02 0.176E-19 ort(H,U,f) =-0.179E-01 0.188E-01 0.133E-18
+CGA:   7    -0.962922031470E+03   -0.39333E-01   -0.39314E-01  5040   0.403E-01 0.885E-03
+ gam= 0.236 trial= 0.427  step= 0.389 mean= 0.427
+ gam= 0.434 g(H,U,f)=  0.149E-01 0.254E-02 0.980E-17 ort(H,U,f) =-0.665E-02 0.680E-02 0.252E-16
+CGA:   8    -0.962929889323E+03   -0.78579E-02   -0.78613E-02  5040   0.175E-01 0.149E-03
+ gam= 0.434 trial= 0.425  step= 0.401 mean= 0.425
+ gam= 0.341 g(H,U,f)=  0.467E-02 0.130E-02 0.579E-15 ort(H,U,f) =-0.358E-02 0.365E-02 0.239E-14
+CGA:   9    -0.962933407328E+03   -0.35180E-02   -0.35189E-02  5040   0.597E-02 0.679E-04
+ gam= 0.341 trial= 0.424  step= 0.475 mean= 0.424
+ gam= 0.503 g(H,U,f)=  0.243E-02 0.579E-03 0.250E-18 ort(H,U,f) =-0.138E-02 0.144E-02 0.210E-17
+CGA:  10    -0.962934830567E+03   -0.14232E-02   -0.14218E-02  5040   0.300E-02 0.566E-04
+ gam= 0.503 trial= 0.426  step= 0.461 mean= 0.426
+ gam= 0.425 g(H,U,f)=  0.107E-02 0.209E-03 0.199E-20 ort(H,U,f) =-0.669E-03 0.733E-03 0.214E-19
+CGA:  11    -0.962935531486E+03   -0.70092E-03   -0.69978E-03  5040   0.128E-02 0.639E-04
+ gam= 0.425 trial= 0.428  step= 0.438 mean= 0.428
+ gam= 0.453 g(H,U,f)=  0.495E-03 0.837E-04 0.877E-22 ort(H,U,f) =-0.259E-03 0.294E-03-0.970E-21
+CGA:  12    -0.962935817552E+03   -0.28607E-03   -0.28589E-03  5040   0.579E-03 0.352E-04
+ gam= 0.453 trial= 0.429  step= 0.413 mean= 0.429
+ gam= 0.391 g(H,U,f)=  0.187E-03 0.391E-04 0.109E-21 ort(H,U,f) =-0.113E-03 0.128E-03-0.295E-21
+CGA:  13    -0.962935940158E+03   -0.12261E-03   -0.12273E-03  5040   0.226E-03 0.154E-04
+ gam= 0.391 trial= 0.428  step= 0.464 mean= 0.428
+ gam= 0.524 g(H,U,f)=  0.964E-04 0.221E-04 0.322E-22 ort(H,U,f) =-0.442E-04 0.533E-04-0.350E-23
+CGA:  14    -0.962935994139E+03   -0.53980E-04   -0.53817E-04  5040   0.119E-03 0.917E-05
+ gam= 0.524 trial= 0.430  step= 0.456 mean= 0.430
+ gam= 0.547 g(H,U,f)=  0.512E-04 0.136E-04 0.619E-22 ort(H,U,f) =-0.291E-04 0.336E-04 0.470E-22
+CGA:  15    -0.962936022324E+03   -0.28185E-04   -0.28127E-04  5040   0.648E-04 0.447E-05
+ gam= 0.547 trial= 0.431  step= 0.482 mean= 0.431
+ gam= 0.692 g(H,U,f)=  0.356E-04 0.929E-05 0.629E-22 ort(H,U,f) =-0.194E-04 0.218E-04 0.107E-21
+CGA:  16    -0.962936038582E+03   -0.16258E-04   -0.16197E-04  5040   0.449E-04 0.242E-05
+ gam= 0.692 trial= 0.434  step= 0.500 mean= 0.434
+ gam= 0.715 g(H,U,f)=  0.246E-04 0.748E-05 0.739E-23 ort(H,U,f) =-0.160E-04 0.158E-04 0.603E-22
+CGA:  17    -0.962936050208E+03   -0.11626E-04   -0.11630E-04  5040   0.321E-04-0.132E-06
+ gam= 0.715 trial= 0.437  step= 0.617 mean= 0.437
+ gam= 1.026 g(H,U,f)=  0.275E-04 0.535E-05 0.144E-24 ort(H,U,f) =-0.141E-04 0.120E-04 0.947E-23
+CGA:  18    -0.962936059880E+03   -0.96717E-05   -0.98617E-05  5040   0.329E-04-0.211E-05
+ gam= 1.026 trial= 0.446  step= 0.513 mean= 0.446
+ final diagonalization
+   1 F= -.96293606E+03 E0= -.96293606E+03  d E =-.118947E-18
+ writing wavefunctions
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP

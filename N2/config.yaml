@@ -12,7 +12,7 @@ tasks:
       POSCAR: POSCAR
 
   - hse06_scf_0:
-      run: True
+      run: False
       INCAR: INCAR_hse06_scf_0
       KPOINTS: KPOINTS
       POTCAR: POTCAR

@@ -1,0 +1,66 @@
+ running    4 mpi-ranks, on    1 nodes
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ OpenACC runtime initialized ...    4 GPUs detected
+ vasp.6.4.2 20Jul23 (build Nov 12 2023 22:16:35) complex                         
+ POSCAR found type information on POSCAR GaO CuN 
+ POSCAR found :  4 types and     120 ions
+ scaLAPACK will be used selectively (only on CPU)
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.124162438942E+05    0.12416E+05   -0.58390E+05 10600   0.706E+03
+DAV:   2    -0.310549342477E+05   -0.43471E+05   -0.42115E+05 13496   0.119E+03
+DAV:   3    -0.354629982322E+05   -0.44081E+04   -0.39696E+04 14424   0.347E+02
+DAV:   4    -0.359130998786E+05   -0.45010E+03   -0.38967E+03 16864   0.984E+01
+DAV:   5    -0.359561752018E+05   -0.43075E+02   -0.39464E+02 19512   0.287E+01    0.709E+02
+DAV:   6    -0.106695008033E+05    0.25287E+05   -0.15983E+04 14040   0.242E+02    0.415E+02
+DAV:   7    -0.250744753397E+04    0.81621E+04   -0.12484E+04 15360   0.225E+02    0.184E+02
+DAV:   8    -0.890537873613E+03    0.16169E+04   -0.54563E+03 15920   0.196E+02    0.110E+02
+DAV:   9    -0.743776704574E+03    0.14676E+03   -0.10482E+03 14776   0.117E+02    0.615E+01
+DAV:  10    -0.726437627558E+03    0.17339E+02   -0.81564E+02 16816   0.822E+01    0.361E+01
+DAV:  11    -0.712002613379E+03    0.14435E+02   -0.12304E+02 14920   0.374E+01    0.233E+01
+DAV:  12    -0.707896770770E+03    0.41058E+01   -0.73501E+01 14392   0.354E+01    0.145E+01
+DAV:  13    -0.706265944843E+03    0.16308E+01   -0.25977E+01 14552   0.178E+01    0.790E+00
+DAV:  14    -0.706159425231E+03    0.10652E+00   -0.77326E+00 14624   0.129E+01    0.516E+00
+DAV:  15    -0.705944925719E+03    0.21450E+00   -0.23892E+00 14096   0.573E+00    0.230E+00
+DAV:  16    -0.705941265914E+03    0.36598E-02   -0.10786E+00 15160   0.366E+00    0.135E+00
+DAV:  17    -0.705948036164E+03   -0.67703E-02   -0.35819E-01 13784   0.262E+00    0.598E-01
+DAV:  18    -0.705947560969E+03    0.47520E-03   -0.61557E-02 15336   0.202E+00    0.400E-01
+DAV:  19    -0.705948537547E+03   -0.97658E-03   -0.35135E-02 15736   0.985E-01    0.194E-01
+DAV:  20    -0.705949875118E+03   -0.13376E-02   -0.22654E-02 13168   0.532E-01    0.125E-01
+DAV:  21    -0.705950245947E+03   -0.37083E-03   -0.68075E-03 15032   0.403E-01    0.817E-02
+DAV:  22    -0.705950192712E+03    0.53235E-04   -0.11899E-03 15936   0.257E-01    0.426E-02
+DAV:  23    -0.705950402828E+03   -0.21012E-03   -0.24277E-03 14456   0.133E-01    0.346E-02
+DAV:  24    -0.705950509953E+03   -0.10712E-03   -0.12784E-03 12664   0.102E-01    0.267E-02
+DAV:  25    -0.705950523387E+03   -0.13434E-04   -0.29187E-04 10624   0.712E-02    0.190E-02
+DAV:  26    -0.705950513057E+03    0.10330E-04   -0.27564E-05  8176   0.716E-02    0.105E-02
+DAV:  27    -0.705950512020E+03    0.10370E-05   -0.32477E-05  9368   0.112E-01
+   1 F= -.70595051E+03 E0= -.70595048E+03  d E =-.550811E-04
+ writing wavefunctions
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP

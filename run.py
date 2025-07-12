@@ -4,9 +4,10 @@ import shutil
 import subprocess
 from datetime import datetime
 
-# projects = ['Cu_{Ga(I)}-N_{O(I)}', 'Cu_{Ga(I)}-N_{O(II)}', 'Cu_{Ga(I)}-N_{O(III)}']
-# projects = ['Cu_{Ga(II)}-N_{O(I)}', 'Cu_{Ga(II)}-N_{O(II)}', 'Cu_{Ga(II)}-N_{O(III)}']
-projects = ['Cu_{Ga(I)}']
+# projects = [ 'Fe_{Ga(I)}', 'Fe_{Ga(I)}-N_{O(I)}', 'Fe_{Ga(I)}-N_{O(II)}', 'Fe_{Ga(I)}-N_{O(III)}']
+# projects = ['Fe_{Ga(II)}', 'Fe_{Ga(II)}-N_{O(I)}', 'Fe_{Ga(II)}-N_{O(II)}', 'Fe_{Ga(II)}-N_{O(III)}']
+# projects = ['Fe_{Ga(II)}-N_{O(II)}', 'Fe_{Ga(I)}-N_{O(II)}', 'Fe_{Ga(I)}-N_{O(III)}']
+projects = ['Mg']
 
 os.environ["OMPI_MCA_btl_openib_warn_no_device_params_found"] = "0"
 os.environ["OMPI_MCA_btl"] = "^openib"

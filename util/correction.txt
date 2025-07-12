@@ -1,5 +1,64 @@
 
 ==================================================
-Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga47_1o71p_1/hse06_scf_-1_0.32
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(I)}/hse06_scf_-1_0.32
 ==================================================
-Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga47_1o71p_1/hse06_scf_-1_0.32: No defect calculations in `output_path` '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga47_1o71p_1/hse06_scf_-1_0.32/..' were successfully parsed, using `bulk_path`: /home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o72/hse06_scf_0_0.32. Please check the correct defect/bulk paths and subfolder are being set, and that the folder structure is as expected (see `DefectsParser` docstring).
+name: N_O_Cs_Ga1.85_-1
+defect: N_O substitution defect at site [0.004,0.167,0.373] in structure
+
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(I)}/hse06_scf_-1_0.32: list index out of range
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(II)}/hse06_scf_-1_0.32
+==================================================
+name: N_O_Cs_Ga1.87_-1
+defect: N_O substitution defect at site [0.173,0.000,0.280] in structure
+
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(II)}/hse06_scf_-1_0.32: list index out of range
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(III)}/hse06_scf_-1_0.32
+==================================================
+name: N_O_Cs_Ga1.84_-1
+defect: N_O substitution defect at site [0.168,0.000,0.554] in structure
+
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(III)}/hse06_scf_-1_0.32: list index out of range
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(I)}/hse06_scf_-1_0.32
+==================================================
+name: P_O_Cs_Ga1.85_-1
+defect: P_O substitution defect at site [0.004,0.167,0.373] in structure
+
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(I)}/hse06_scf_-1_0.32: list index out of range
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(II)}/hse06_scf_-1_0.32
+==================================================
+name: P_O_Cs_Ga1.87_-1
+defect: P_O substitution defect at site [0.173,0.000,0.280] in structure
+
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(II)}/hse06_scf_-1_0.32: list index out of range
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(III)}/hse06_scf_-1_0.32
+==================================================
+name: P_O_Cs_Ga1.84_-1
+defect: P_O substitution defect at site [0.168,0.000,0.554] in structure
+
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(III)}/hse06_scf_-1_0.32: list index out of range
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/V_{Ga(I)}/hse06_scf_-1_0.32
+==================================================
+name: v_Ga_Cs_O1.95_-1
+defect: v_Ga vacancy defect at site [0.341,0.333,0.343] in structure
+
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/V_{Ga(I)}/hse06_scf_-1_0.32: list index out of range
+
+==================================================
+Processing: /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/V_{Ga(I)}/hse06_scf_-1_0.32
+==================================================
+name: v_Ga_Cs_O1.95_-1
+defect: v_Ga vacancy defect at site [0.341,0.333,0.343] in structure
+
+Error processing /home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/V_{Ga(I)}/hse06_scf_-1_0.32: list index out of range

@@ -7,19 +7,18 @@ from doped.analysis import DefectsParser
 # 基础参数
 dielectric = 9.9
 base_dir = "/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3"
-bulk_path = "/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o72/hse06_scf_0_0.32"
+bulk_path = "/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o72/hse06_scf_0_0.32_new"
 
 # 收集目标文件夹
 target_folders = [
-    '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga47_1o71p_1/hse06_scf_-1_0.32',
-    # '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71n_2/hse06_scf_-1_0.32',
-    # '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71n_3/hse06_scf_-1_0.32',
-    # '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71n_1/hse06_scf_-1_0.32',
-    # '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71n_2/hse06_scf_-1_0.32',
-    # '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71n_3/hse06_scf_-1_0.32',
-    # '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71p_1/hse06_scf_-1_0.32',
-    # '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71p_2/hse06_scf_-1_0.32',
-    # '/home/bingxing2/ailab/xiazeyu_p/Programs/P-type-Ga2O3/ga48o71p_3/hse06_scf_-1_0.32'
+    '/home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(I)}/hse06_scf_-1_0.32',
+    '/home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(II)}/hse06_scf_-1_0.32',
+    '/home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/N_{O(III)}/hse06_scf_-1_0.32',
+    '/home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(I)}/hse06_scf_-1_0.32',
+    '/home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(II)}/hse06_scf_-1_0.32',
+    '/home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/P_{O(III)}/hse06_scf_-1_0.32',
+    '/home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/V_{Ga(I)}/hse06_scf_-1_0.32',
+    '/home/bingxing2/ailab/xiazeyu_p/Programs/trash/5.9/V_{Ga(I)}/hse06_scf_-1_0.32',
                   ]
 # for root, dirs, _ in os.walk(base_dir):
 #     for dir_name in dirs:
